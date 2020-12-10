@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>JYVisualization.js - Docdash</title>
+    
+    <meta name="description" content="A clean, responsive documentation template theme for JSDoc 3." />
+    
+        <meta name="keywords" content="jsdoc, docdash" />
+        <meta name="keyword" content="jsdoc, docdash" />
+    
+    
+    
+    <meta property="og:title" content="Docdash"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://cloud.githubusercontent.com/assets/447956/13398144/4dde7f36-defd-11e5-8909-1a9013302cb9.png"/>
+    <meta property="og:site_name" content="Docdash"/>
+    <meta property="og:url" content="http://clenemt.github.io/docdash/"/>
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://github.com/clenemt/docdash" target="_blank" class="menu-item" id="repository" >Github repo</a></h2><h3>Namespaces</h3><ul><li><a href="Analysis.html">Analysis</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Analysis.html#.booleanEqual">booleanEqual</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.bufferAnalysis">bufferAnalysis</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.distancePointOnLine">distancePointOnLine</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.intersectPolygon">intersectPolygon</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.isolatedPoint">isolatedPoint</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.measureArea">measureArea</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.measureCoordinates">measureCoordinates</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.measureDistance">measureDistance</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.pointAlongLine">pointAlongLine</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.pointsWithinPolygon">pointsWithinPolygon</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#getHullPolygon">getHullPolygon</a></li></ul></li><li><a href="Control.html">Control</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Control.html#.addAttributionControl">addAttributionControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addCompareControl">addCompareControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addDrawControl">addDrawControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addFullscreenControl">addFullscreenControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addGeolacateControl">addGeolacateControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addLayerControl">addLayerControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addLayerControlEx">addLayerControlEx</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addLegendControl">addLegendControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addNavigationControl">addNavigationControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addScaleControl">addScaleControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addSearchControl">addSearchControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addThemeLegendControl">addThemeLegendControl</a></li></ul></li><li><a href="Layer.html">Layer</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Layer.html#.add3DPolygonLayer">add3DPolygonLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addbgLayer">addbgLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addDemLayer">addDemLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addGeojsonLayer">addGeojsonLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addHeatmapLayer">addHeatmapLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addLineLayer">addLineLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addMediaLayer">addMediaLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addPointLayer">addPointLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addPolygonLayer">addPolygonLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addRasterLayer">addRasterLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addSymbolLayer">addSymbolLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addTextLayer">addTextLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createLineLayer">createLineLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createMarkerLayer">createMarkerLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createMarkerPopup">createMarkerPopup</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createMinRectangle">createMinRectangle</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createPointLayer">createPointLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createPolygonLayer">createPolygonLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createPopup">createPopup</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createRectangleLayer">createRectangleLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.getLayer">getLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.moveLayer">moveLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.removeLayer">removeLayer</a></li></ul></li><li><a href="Map.html">Map</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Map.html#.addMapboxMap">addMapboxMap</a></li><li data-type='method' style='display: none;'><a href="Map.html#.borderToMask">borderToMask</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getCenterByCode">getCenterByCode</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapBounds">getMapBounds</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapCenter">getMapCenter</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapMaxZoom">getMapMaxZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapMinZoom">getMapMinZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapZoom">getMapZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getPointsByCode">getPointsByCode</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getPolygonByCode">getPolygonByCode</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapFlyTo">mapFlyTo</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapJumpTo">mapJumpTo</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapStop">mapStop</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapZoomIn">mapZoomIn</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapZoomOut">mapZoomOut</a></li><li data-type='method' style='display: none;'><a href="Map.html#.removeMap">removeMap</a></li><li data-type='method' style='display: none;'><a href="Map.html#.setMapCenter">setMapCenter</a></li><li data-type='method' style='display: none;'><a href="Map.html#.setMapMaxZoom">setMapMaxZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.setMapMinZoom">setMapMinZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.setMapZoom">setMapZoom</a></li></ul></li><li><a href="Source.html">Source</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Source.html#.addSource">addSource</a></li><li data-type='method' style='display: none;'><a href="Source.html#.removeSource">removeSource</a></li></ul></li><li><a href="Style.html">Style</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Style.html#.getLayerFilter">getLayerFilter</a></li><li data-type='method' style='display: none;'><a href="Style.html#.getLayerLayout">getLayerLayout</a></li><li data-type='method' style='display: none;'><a href="Style.html#.getLayerPaint">getLayerPaint</a></li><li data-type='method' style='display: none;'><a href="Style.html#.getMapStyle">getMapStyle</a></li><li data-type='method' style='display: none;'><a href="Style.html#.setLayerFilter">setLayerFilter</a></li><li data-type='method' style='display: none;'><a href="Style.html#.setLayerLayout">setLayerLayout</a></li><li data-type='method' style='display: none;'><a href="Style.html#.setLayerPaint">setLayerPaint</a></li><li data-type='method' style='display: none;'><a href="Style.html#.setMapStyle">setMapStyle</a></li></ul></li><li><a href="Visualization.html">Visualization</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Visualization.html#.add3DModel">add3DModel</a></li><li data-type='method' style='display: none;'><a href="Visualization.html#.animateLine">animateLine</a></li><li data-type='method' style='display: none;'><a href="Visualization.html#.animateMarker">animateMarker</a></li><li data-type='method' style='display: none;'><a href="Visualization.html#.animateMarkerByLine">animateMarkerByLine</a></li></ul></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">JYVisualization.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/** @namespace  Visualization*/
+const arc=require("../../libs/arc");
+const turf=require("@turf/turf");
+const mapboxgl=require("../../libs/mapbox/mapbox-gl");
+/**
+ * 沿线移动Marker
+ * @method animateMarker
+ * @memberOf Visualization
+ * @example
+ * let lines= [[112.7, 35.4992], [112.8, 35.5992], [112.95, 35.36], [112.82, 35.299],[112.72, 35.49]];
+ * jmap.JYvisualization.animateMarker(map,lines,100,'marker');
+ * @param map=-- {object} 地图对象,不可为空
+ * @param lines=-- {array} 运动轨迹线坐标数组，不可为空
+ * @param speed=-- {number} marker移动速度，1~10000；数值越大，速度越快
+ * @param className=-- {array} marker的CSS类名，可为空，为空默认样式显示；不为空需前端定义样式
+ * @return marker {array} marker对象数组
+ */
+let animateMarker = function (map, lines, speed, className) {
+    let timer = null;
+    cancelAnimationFrame(timer);
+    let marker = [];
+    let angle=[];
+    if (className) {
+        for (let i = 0; i &lt; lines.length - 1; i++) {
+            let el = document.createElement('div');
+            el.className = className;
+            marker[i] = new mapboxgl.Marker(el)
+                .setLngLat(lines[i])
+                .addTo(map);
+            angle[i]=getAngle(lines[i][0],lines[i][1],lines[i+1][0],lines[i+1][1]);
+        }
+    } else {
+        for (let i = 0; i &lt; lines.length - 1; i++) {
+            marker[i] = new mapboxgl.Marker();
+            angle[i]=getAngle(lines[i][0],lines[i][1],lines[i+1][0],lines[i+1][1]);
+        }
+    }
+    return animateMarker(lines, marker, speed);
+
+    function animateMarker(line, marker, speed) {
+        let returnData = {
+            marker: null,
+            timer: null,
+        };
+        speed = speed &lt; 1 ? 1 : speed;
+        speed = speed > 10000 ? 10000 : speed;
+        let x = [];
+        let y = [];
+        for (let i = 0; i &lt; line.length - 1; i++) {
+            x[i] = line[i][0];
+            y[i] = line[i][1];
+            marker[i].setLngLat(line[i])
+            marker[i]._element.style.transform+="rotate("+angle[i]+"rad)";
+            marker[i].addTo(map);
+        }
+        returnData.marker = marker;
+        cancelAnimationFrame(timer);
+        requestAnimationFrame(function () {
+            twoPointMove();
+        });
+        return returnData;
+        // timer=setTimeout(function () {twoPointMove();},100);
+        function twoPointMove() {
+            let dx = [];
+            let dy = [];
+            for (let i = 0; i &lt; line.length - 1; i++) {
+                dx[i] = (line[i + 1][0] - line[i][0]) / (10000 / speed);
+                dy[i] = (line[i + 1][1] - line[i][1]) / (10000 / speed);
+                if (Math.abs(x[i] - line[i][0]) &lt; Math.abs(line[i + 1][0] - line[i][0])) {
+                    x[i] = dx[i] + x[i];
+                    y[i] = dy[i] + y[i];
+                    marker[i].setLngLat([x[i], y[i]]);
+                    marker[i]._element.style.transform+="rotate("+angle[i]+"rad)";
+                    marker[i]._element.style.transform+="rotate("+map.transform.angle+"rad)";
+                } else if ((line[i + 1][0] - line[i][0] === 0) &amp;&amp; Math.abs(y[i] - line[i][1]) &lt; Math.abs(line[i + 1][1] - line[i][1])) {
+                    x[i] = dx[i] + x[i];
+                    y[i] = dy[i] + y[i];
+                    marker[i].setLngLat([x[i], y[i]]);
+                    marker[i]._element.style.transform+="rotate("+angle[i]+"rad)";
+                    marker[i]._element.style.transform+="rotate("+map.transform.angle+"rad)";
+                }
+                else {
+                    x[i] = line[i][0];
+                    y[i] = line[i][1];
+                }
+            }
+            timer = requestAnimationFrame(function () {
+                twoPointMove();
+            });
+            returnData.timer = timer;
+            // setTimeout(function () {twoPointMove();},100);
+
+
+        }
+    };
+    function getAngle(px, py, mx, my) {//获得第一点和下一点坐标连线，与y轴正半轴之间的夹角
+        var x = px - mx;
+        var y = py - my;
+        var z = Math.sqrt();
+        var angle = Math.atan2(x, y);//用反三角函数求弧度
+        return angle+Math.PI;
+    };
+};
+/**
+ * 沿线移动Marker2
+ * @method animateMarkerByLine
+ * @memberOf Visualization
+ * @example
+ * let lines = [[112.7, 35.4992], [112.8, 35.5992], [112.95, 35.36], [112.82, 35.299], [112.72, 35.49]];
+ * let popup = new mapboxgl.Popup({
+ *     offset: [-10, -10]
+ * })
+ * let marker = new mapboxgl.Marker(el);
+ * returnData = jmap.JYvisualization.animateMarkerByLine(map, lines, marker, 100, popup);
+ * @param map=-- {object} 地图对象,不可为空
+ * @param lines=-- {array} 运动轨迹线坐标数组，不可为空
+ * @param marker=-- {object} marker对象，不可为空
+ * @param speed=-- {number} marker移动速度，1~10000；数值越大，速度越快
+ * @param popup=-- {array} 移动marker弹窗，可为空，默认为不添加
+ * @param rotate=-- {boolean} marker是否旋转，可为空，默认为不旋转
+ * @param fly=-- {boolean} 地图中心是否移动，可为空，默认为不移动
+ * @param zoom=-- {boolean} 地图缩放级别，可为空，默认为地图初始化级别
+ * @return returnData {object} {layer：marker对象，timer:时间控制ID}
+ */
+let animateMarkerByLine = function (map, lines, marker, speed, popup,rotate,fly,zoom) {
+    let turfLine = turf.lineString(lines);
+    let distance = turf.length(turfLine,{units: 'miles'});
+    let progress = 0;
+    let returnData={
+        timer:null,
+        marker:null,
+    };
+    let num=100;
+    marker.setLngLat(lines[0])
+        .addTo(map);
+    let point = [];
+    let tempLine =[];
+    for (let i = 0; i &lt; num; i++) {
+        point[i] = turf.along(turfLine, (distance/num) * (i + 1), {units: 'miles'});
+        tempLine.push(point[i].geometry.coordinates);
+    }
+
+    function moveFeature2() {
+        //关闭地图旋转
+        // map.dragRotate.disable();
+        progress += 1;
+        //当进行到拐点，计算拐点坐标，角度
+        if (progress % speed == 0) {
+            // let currentPoint = new ol.geom.Point(routeCoords[progress/speed]);
+            let dx = tempLine[progress / speed][0] - tempLine[progress / speed - 1][0];
+            let dy = tempLine[progress / speed][1] - tempLine[progress / speed - 1][1];
+            let rotation = Math.atan2(dy, dx);
+            marker.setLngLat(tempLine[progress / speed])
+                .addTo(map);
+            let dis=distancePointOnLine(tempLine[progress / speed],tempLine);
+            marker._element.dis=dis;
+            // .setPopup(popup);
+            if(popup)
+            popup.setLngLat(tempLine[progress / speed])
+                .addTo(map);
+            //获取当前地图角度
+            if(rotate) {
+                marker._element.style.transform += "rotate(" + map.transform.angle + "rad)";
+                //根据路线计算应拐角度
+                marker._element.style.transform += "rotate(" + -rotation + "rad)";
+            }
+            if(fly){
+                map.flyTo({
+                    center:tempLine[progress / speed],
+                    zoom:zoom?zoom:map.getZoom(),
+                });
+            }
+
+        }
+        //当进行到两点之间，在两点间生成Speed个点，成为新的路径点
+        if (progress % speed != 0) {
+            let arcGenerator = new arc.GreatCircle(
+                {x: tempLine[Math.floor(progress / speed)][0], y: tempLine[Math.floor(progress / speed)][1]},
+                {x: tempLine[Math.floor(progress / speed + 1)][0], y: tempLine[Math.floor(progress / speed + 1)][1]});
+
+            let arcLine = arcGenerator.Arc(speed, {offset: 0});
+            let dx = arcLine.geometries[0].coords[progress % speed][0] - arcLine.geometries[0].coords[progress % speed - 1][0];
+            let dy = arcLine.geometries[0].coords[progress % speed][1] - arcLine.geometries[0].coords[progress % speed - 1][1];
+            let rotation = Math.atan2(dy, dx);
+            if (progress % speed &lt; speed &amp;&amp; arcLine.geometries[0].coords[progress % speed][0]) {
+                marker.setLngLat(arcLine.geometries[0].coords[progress % speed])
+                    .addTo(map)
+                    //.setPopup(popup);
+                if (popup) popup.setLngLat(arcLine.geometries[0].coords[progress % speed]).addTo(map);
+                if(rotate){
+                    marker._element.style.transform += "rotate(" + map.transform.angle + "rad)";
+                    marker._element.style.transform += "rotate(" + -rotation + "rad)";
+                }
+                // }
+            }
+        }
+        if (progress/speed&lt;tempLine.length-1) {
+
+            timer = requestAnimationFrame(moveFeature2);
+            returnData.timer = timer;
+        } else {
+            //关闭地图旋转
+            // map.dragRotate.enable();
+        }
+    }
+    moveFeature2();
+    returnData.marker = marker;
+    return returnData;
+};
+/**
+ * 绘制动态线
+ * @method animateLine
+ * @memberOf Visualization
+ * @example
+ * let lines = [[112.7, 35.4992], [112.8, 35.5992], [112.95, 35.36], [112.82, 35.299], [112.72, 35.49]];
+ * jmap.JYvisualization.animateLine(map,'animateLine',lines,100,'#ed6498',5,0.8);
+ * @param map=-- {object} 地图对象,不可为空
+ * @param lines=-- {array} 运动轨迹线坐标数组，不可为空
+ * @param id=-- {string} 图层ID，不可为空
+ * @param speed=-- {number} marker移动速度，1~10000；数值越大，速度越快
+ * @param color='#ed6498' {string} 填充颜色，可为空，默认为‘#ed6498’
+ * @param width=1 {number} 线宽，可为空，默认为1
+ * @param opacity=1 {number} 透明度，可为空，默认为1
+ * @return returnData {object} {layer：线图层对象，timer:时间控制ID}
+ */
+let animateLine = function (map, id, lines, speed, color, width, opacity) {
+    color = color?  color:'#ed6498';
+    opacity = opacity?opacity: 1;
+    width = width?width: 1 ;
+    let progress = 0;
+    speed = speed? 100 : 10000 / speed;
+    speed = speed > 10000 ? 1 : speed;
+    speed = speed &lt; 1 ? 10000 : speed;
+
+    let returnData = {
+        layer: null,
+        timer: null,
+    };
+    let geojson = {
+        "type": "FeatureCollection",
+        "features": [{
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": []
+            }
+        }]
+    };
+    map.addLayer({
+        'id': id,
+        'type': 'line',
+        'source': {
+            'type': 'geojson',
+            'data': geojson
+        },
+        'layout': {
+            'line-cap': 'round',
+            'line-join': 'round'
+        },
+        'paint': {
+            'line-color': color,
+            'line-width': width,
+            'line-opacity': opacity
+        }
+    });
+
+    function animateLine() {
+        progress += 1;
+        //当进行到拐点，计算拐点坐标，角度
+        if (progress % speed == 0) {
+            // let currentPoint = new ol.geom.Point(routeCoords[progress/speed]);
+            let x = lines[progress / speed - 1][0];
+            let y = lines[progress / speed - 1][1];
+            // append new coordinates to the lineString
+            geojson.features[0].geometry.coordinates.push([x, y]);
+// then update the map
+            map.getSource(id).setData(geojson);
+            // map.flyTo({
+            //     center: [x, y],
+            // })
+        }
+        //当进行到两点之间，在两点间生成Speed个点，成为新的路径点
+        if (progress % speed != 0) {
+            let arcGenerator = new arc.GreatCircle(
+                {x: lines[Math.floor(progress / speed)][0], y: lines[Math.floor(progress / speed)][1]},
+                {x: lines[Math.floor(progress / speed + 1)][0], y: lines[Math.floor(progress / speed + 1)][1]});
+            let arcLine = arcGenerator.Arc(speed, {offset: 0});//在两个点之间生成100个点 js地址为https://api.mapbox.com/mapbox.js/plugins/arc.js/v0.1.0/arc.js
+            let x = arcLine.geometries[0].coords[progress % speed - 1][0];
+            let y = arcLine.geometries[0].coords[progress % speed - 1][1];
+
+            // append new coordinates to the lineString
+            geojson.features[0].geometry.coordinates.push([x, y]);
+            // then update the map
+            map.getSource(id).setData(geojson);
+
+            map.flyTo({
+                center: [x, y],
+            })
+        }
+        if (progress / speed &lt; lines.length - 1) {
+            timer = requestAnimationFrame(animateLine);
+            returnData.timer = timer;
+        } else {
+
+            //关闭地图旋转
+            // map.dragRotate.enable();
+        }
+    }
+
+    animateLine();
+    returnData.layer = map.getLayer(id);
+    return returnData;
+};
+/**
+ * 添加Three.JS三维模型
+ * @method add3DModel
+ * @memberOf Visualization
+ * @example
+ * let lines= [[112.7, 35.4992], [112.8, 35.5992], [112.95, 35.36], [112.82, 35.299],[112.72, 35.49]];
+ * jmap.JYvisualization.animateMarker(map,lines,100,'marker');
+ * @param map=-- {object} 地图对象,不可为空
+ * @param id=-- {string} 模型图层ID,不可为空
+ * @param position=-- {array} 模型位置坐标数组，不可为空
+ * @param rotate=-- {array} 模型方向弧度[x,y,z],弧度范围为{-2π~2π}，可为空，默认为[0,0,0]
+ * @param scale=1 {number} 模型缩放比例，可为空，默认为1
+ * @param url=-- {number} gltf格式模型存放地址,不可为空
+ * @return marker {array} marker对象数组
+ */
+let add3DModel = function (map,id,position,rotate,scale,url) {
+    rotate=rotate?rotate:[0,0,0];
+    scale=scale?scale:1;
+    // 确保模型在地图上被正确地引用的参数
+    let modelOrigin =position;
+    let modelAltitude = 0;
+    let modelRotate =rotate;
+    let modelScale =scale;
+    // 将参数转换到地图上三维模型的位置、旋转和缩放
+    let modelTransform = {
+        translateX: mapboxgl.MercatorCoordinate.fromLngLat(modelOrigin, modelAltitude).x,
+        translateY: mapboxgl.MercatorCoordinate.fromLngLat(modelOrigin, modelAltitude).y,
+        translateZ: mapboxgl.MercatorCoordinate.fromLngLat(modelOrigin, modelAltitude).z,
+        rotateX: modelRotate[0],
+        rotateY: modelRotate[1],
+        rotateZ: modelRotate[2],
+        scale: modelScale
+    };
+
+    let THREE = window.THREE;
+
+    // 根据CustomLayerInterface为三维模型配置自定义层
+    let customLayer = {
+        id: id,
+        type: 'custom',
+        renderingMode: '3d',
+        onAdd: function(map, gl) {
+            this.camera = new THREE.Camera();
+            this.scene = new THREE.Scene();
+            // 创建两个Three.js灯光,照亮模型
+            let directionalLight = new THREE.DirectionalLight(0xffffff);
+            directionalLight.position.set(0, -70, 100).normalize();
+            this.scene.add(directionalLight);
+
+            let directionalLight2 = new THREE.DirectionalLight(0xffffff);
+            directionalLight2.position.set(0, 70, 100).normalize();
+            this.scene.add(directionalLight2);
+
+            //使用three.js GLTF loader加载器将3D模型添加到three.js场景中
+            let loader = new THREE.GLTFLoader();
+            loader.load(url, (function (gltf) {
+                this.scene.add(gltf.scene);
+            }).bind(this));
+            this.map = map;
+
+            // 使用 Mapbox GL JS 地图画布 three.js
+            this.renderer = new THREE.WebGLRenderer({
+                canvas: map.getCanvas(),
+                context: gl
+            });
+
+            this.renderer.autoClear = false;
+        },
+        render: function(gl, matrix) {
+            let rotationX = new THREE.Matrix4().makeRotationAxis(new THREE.Vector3(1, 0, 0), modelTransform.rotateX);
+            let rotationY = new THREE.Matrix4().makeRotationAxis(new THREE.Vector3(0, 1, 0), modelTransform.rotateY);
+            let rotationZ = new THREE.Matrix4().makeRotationAxis(new THREE.Vector3(0, 0, 1), modelTransform.rotateZ);
+
+            let m = new THREE.Matrix4().fromArray(matrix);
+            let l = new THREE.Matrix4().makeTranslation(modelTransform.translateX, modelTransform.translateY, modelTransform.translateZ)
+                .scale(new THREE.Vector3(modelTransform.scale, -modelTransform.scale, modelTransform.scale))
+                .multiply(rotationX)
+                .multiply(rotationY)
+                .multiply(rotationZ);
+
+            this.camera.projectionMatrix.elements = matrix;
+            this.camera.projectionMatrix = m.multiply(l);
+            this.renderer.state.reset();
+            this.renderer.render(this.scene, this.camera);
+            this.map.triggerRepaint();
+        }
+    };
+
+    map.on('style.load', function() {
+        map.addLayer(customLayer);
+    });
+};
+
+///内部函数，计算点在线上距离
+let distancePointOnLine = function(point,lines) {
+    let pt = turf.point(point);
+    let line=null;
+    let isPointOnLine = null;
+    let temp=[];
+    temp.push(lines[0]);
+    for(let i=0;i&lt;lines.length-1;i++){
+        line=turf.lineString([lines[i],lines[i+1]]);
+        isPointOnLine = turf.booleanPointOnLine(pt,line);
+        if(isPointOnLine){
+            temp.push(point);
+            i=lines.length;
+        }else{
+            temp.push(lines[i+1]);
+            if(i==lines.length-2){
+                console.log("当前点不在线上！");
+            }
+        }
+    }
+    let tempLine = turf.lineString(temp);
+    let length = turf.length(tempLine, {units: 'miles'});
+    return length;
+};
+module.exports = {
+    animateMarker,
+    animateMarkerByLine,
+    animateLine,
+    add3DModel,
+}
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.6</a> on Fri Sep 25 2020 11:53:40 GMT+0800 (GMT+08:00) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+<script src="scripts/collapse.js" defer></script>
+
+
+</body>
+</html>

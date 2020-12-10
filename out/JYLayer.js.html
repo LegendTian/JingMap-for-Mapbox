@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>JYLayer.js - Docdash</title>
+    
+    <meta name="description" content="A clean, responsive documentation template theme for JSDoc 3." />
+    
+        <meta name="keywords" content="jsdoc, docdash" />
+        <meta name="keyword" content="jsdoc, docdash" />
+    
+    
+    
+    <meta property="og:title" content="Docdash"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://cloud.githubusercontent.com/assets/447956/13398144/4dde7f36-defd-11e5-8909-1a9013302cb9.png"/>
+    <meta property="og:site_name" content="Docdash"/>
+    <meta property="og:url" content="http://clenemt.github.io/docdash/"/>
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://github.com/clenemt/docdash" target="_blank" class="menu-item" id="repository" >Github repo</a></h2><h3>Namespaces</h3><ul><li><a href="Analysis.html">Analysis</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Analysis.html#.booleanEqual">booleanEqual</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.bufferAnalysis">bufferAnalysis</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.distancePointOnLine">distancePointOnLine</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.intersectPolygon">intersectPolygon</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.isolatedPoint">isolatedPoint</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.measureArea">measureArea</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.measureCoordinates">measureCoordinates</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.measureDistance">measureDistance</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.pointAlongLine">pointAlongLine</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.pointsWithinPolygon">pointsWithinPolygon</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#getHullPolygon">getHullPolygon</a></li></ul></li><li><a href="Control.html">Control</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Control.html#.addAttributionControl">addAttributionControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addCompareControl">addCompareControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addDrawControl">addDrawControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addFullscreenControl">addFullscreenControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addGeolacateControl">addGeolacateControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addLayerControl">addLayerControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addLayerControlEx">addLayerControlEx</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addLegendControl">addLegendControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addNavigationControl">addNavigationControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addScaleControl">addScaleControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addSearchControl">addSearchControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addThemeLegendControl">addThemeLegendControl</a></li></ul></li><li><a href="Layer.html">Layer</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Layer.html#.add3DPolygonLayer">add3DPolygonLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addbgLayer">addbgLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addDemLayer">addDemLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addGeojsonLayer">addGeojsonLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addHeatmapLayer">addHeatmapLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addLineLayer">addLineLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addMediaLayer">addMediaLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addPointLayer">addPointLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addPolygonLayer">addPolygonLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addRasterLayer">addRasterLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addSymbolLayer">addSymbolLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addTextLayer">addTextLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createLineLayer">createLineLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createMarkerLayer">createMarkerLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createMarkerPopup">createMarkerPopup</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createMinRectangle">createMinRectangle</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createPointLayer">createPointLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createPolygonLayer">createPolygonLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createPopup">createPopup</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createRectangleLayer">createRectangleLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.getLayer">getLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.moveLayer">moveLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.removeLayer">removeLayer</a></li></ul></li><li><a href="Map.html">Map</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Map.html#.addMapboxMap">addMapboxMap</a></li><li data-type='method' style='display: none;'><a href="Map.html#.borderToMask">borderToMask</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getCenterByCode">getCenterByCode</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapBounds">getMapBounds</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapCenter">getMapCenter</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapMaxZoom">getMapMaxZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapMinZoom">getMapMinZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapZoom">getMapZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getPointsByCode">getPointsByCode</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getPolygonByCode">getPolygonByCode</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapFlyTo">mapFlyTo</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapJumpTo">mapJumpTo</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapStop">mapStop</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapZoomIn">mapZoomIn</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapZoomOut">mapZoomOut</a></li><li data-type='method' style='display: none;'><a href="Map.html#.removeMap">removeMap</a></li><li data-type='method' style='display: none;'><a href="Map.html#.setMapCenter">setMapCenter</a></li><li data-type='method' style='display: none;'><a href="Map.html#.setMapMaxZoom">setMapMaxZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.setMapMinZoom">setMapMinZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.setMapZoom">setMapZoom</a></li></ul></li><li><a href="Source.html">Source</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Source.html#.addSource">addSource</a></li><li data-type='method' style='display: none;'><a href="Source.html#.removeSource">removeSource</a></li></ul></li><li><a href="Style.html">Style</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Style.html#.getLayerFilter">getLayerFilter</a></li><li data-type='method' style='display: none;'><a href="Style.html#.getLayerLayout">getLayerLayout</a></li><li data-type='method' style='display: none;'><a href="Style.html#.getLayerPaint">getLayerPaint</a></li><li data-type='method' style='display: none;'><a href="Style.html#.getMapStyle">getMapStyle</a></li><li data-type='method' style='display: none;'><a href="Style.html#.setLayerFilter">setLayerFilter</a></li><li data-type='method' style='display: none;'><a href="Style.html#.setLayerLayout">setLayerLayout</a></li><li data-type='method' style='display: none;'><a href="Style.html#.setLayerPaint">setLayerPaint</a></li><li data-type='method' style='display: none;'><a href="Style.html#.setMapStyle">setMapStyle</a></li></ul></li><li><a href="Visualization.html">Visualization</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Visualization.html#.add3DModel">add3DModel</a></li><li data-type='method' style='display: none;'><a href="Visualization.html#.animateLine">animateLine</a></li><li data-type='method' style='display: none;'><a href="Visualization.html#.animateMarker">animateMarker</a></li><li data-type='method' style='display: none;'><a href="Visualization.html#.animateMarkerByLine">animateMarkerByLine</a></li></ul></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">JYLayer.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/** @namespace  Layer*/
+
+const mapboxgl=require("../../libs/mapbox/mapbox-gl");
+/**
+ * 加载地图背景图层
+ * @method addbgLayer
+ * @memberOf Layer
+ * @example jmap.JYLayer.addbgLayer(map,'bg','#7ec2ff',0.5);
+ * @param map=-- {object} 地图对象，不可为空
+ * @param id=-- {string} 图层ID，不可为空
+ * @param bgColor=#001e44 {string}  背景图层颜色，可为空，默认‘#001e44’
+ * @param bgOpacity=1 {number} 背景图层透明度，可为空，默认为1
+ * @return bgLayer {object} 背景图层对象
+ */
+let addbgLayer = function (map, id, bgColor, bgOpacity) {
+    bgColor = bgColor? bgColor:'#001e44';
+    bgOpacity = bgOpacity? bgOpacity :1 ;
+    map.addLayer({
+        "id": id,
+        "type": "background",
+        "paint": {
+            "background-color": bgColor,
+            "background-opacity": bgOpacity,
+        }
+    });
+    return map.getLayer(id);
+};
+/**
+ * 加载栅格图层
+ * @method addRasterLayer
+ * @memberOf Layer
+ * @example
+ * jmap.JYSource.addSource(map,'raster','zzraster',url1);
+ * jmap.JYLayer.addRasterLayer(map,'栅格图层1','zzraster','JYGIS:map_zezhou_raster',0);
+ * @param map=-- {object} 地图对象，不可为空
+ * @param id=-- {string} 图层ID，不可为空
+ * @param sourceName=-- {string} 数据源名称，不可为空
+ * @param layerName=-- {string} 数据源图层名称，当数据源为矢量切片时不可为空，其余可为空
+ * @param opacity=1 {number} 栅格图层透明度，可为空，默认为1
+ * @return RasterLayer {object} Raster图层对象
+ */
+let addRasterLayer = function (map, id, sourceName, layerName, opacity) {
+    opacity = opacity?opacity : 1 ;
+    if (layerName) {
+        map.addLayer({
+            "id": id,
+            "type": "raster",
+            "source": sourceName,
+            "source-layer": layerName,
+            "paint": {
+                "raster-opacity": opacity,
+            },
+        });
+    } else {
+        map.addLayer({
+            "id": id,
+            "type": "raster",
+            "source": sourceName,
+            "paint": {
+                "raster-opacity": opacity,
+            },
+
+        });
+    }
+    return map.getLayer(id);
+};
+/**
+ * 加载DEM图层
+ * @method addDemLayer
+ * @memberOf Layer
+ * @example
+ * jmap.JYSource.addSource(map,'raster-dem','zzDem',url3);
+ * jmap.JYLayer.addDemLayer(map,'dem图层','zzDem','JYGIS:map_dem','#000','#deff78','#fffa98');
+ * @param map=-- {object} 地图对象，不可为空
+ * @param id=-- {string} 图层ID，不可为空
+ * @param sourceName=-- {string} 数据源名称，不可为空
+ * @param layerName=-- {string} 数据源图层名称，可为空
+ * @param shadowColor='#000' {string} 远离光源区域颜色，可为空，默认为'#000'
+ * @param highlightColor='#fff' {string} 面向光源区域颜色，可为空，默认为'#fff'
+ * @param accentColor='#fff' {string} 悬崖、山谷等地颜色，可为空，默认为'#fff'
+ * @return DemLayer {object} Dem图层对象
+ */
+let addDemLayer = function (map, id, sourceName, layerName, shadowColor, highlightColor, accentColor) {
+    shadowColor = shadowColor? shadowColor:'#000';
+    highlightColor = highlightColor? highlightColor:'#fff';
+    accentColor = accentColor?accentColor:'#fff';
+    if (layerName) {
+        map.addLayer({
+            id: id,
+            "type": 'hillshade',
+            "source": sourceName,
+            "source-layer": layerName,
+            'paint': {
+                'hillshade-shadow-color': shadowColor,
+                'hillshade-highlight-color': highlightColor,
+                'hillshade-accent-color': accentColor,
+            }
+        });
+    } else {
+        map.addLayer({
+            id: id,
+            "type": 'hillshade',
+            "source": sourceName,
+            'paint': {
+                'hillshade-shadow-color': shadowColor,
+                'hillshade-highlight-color': highlightColor,
+                'hillshade-accent-color': accentColor,
+            }
+        });
+    }
+
+    return map.getLayer(id);
+};
+/**
+ * 加载视频、图像图层
+ * @method addMediaLayer
+ * @memberOf Layer
+ * @example
+ * let bounds=[
+ * [113.24, 36.38],
+ * [112.72, 36.38],
+ * [112.72, 35.71],
+ * [113.24, 35.71]
+ * ];
+ * jmap.JYSource.addSource(map,'video','videoSource',url4,bounds);
+ * jmap.JYLayer.addMediaLayer(map,'视频1','videoSource');
+ * @param map=-- {object} 地图对象，不可为空
+ * @param id=-- {string} 图层ID，不可为空
+ * @param sourceName=-- {string} 数据源名称(可以是video,image类型的源)，不可为空
+ * @return mediaLayer {object} media图层对象
+ */
+let addMediaLayer = function (map, id, sourceName) {
+    map.addLayer({
+        id: id,
+        'type': 'raster',
+        "source": sourceName
+    });
+    return map.getLayer(id);
+};
+/**
+ * 加载面图层
+ * @method addPolygonLayer
+ * @memberOf Layer
+ * @example
+ * jmap.JYSource.addSource(map,'vector','zzmap',url2);
+ * jmap.JYLayer.addPolygonLayer(map,'town_polygon','zzmap','map_town_polygon','#3356ff',1,'#07002c');
+ * @param map=-- {object} 地图对象，不可为空
+ * @param id=-- {string} 图层ID，不可为空
+ * @param sourceName=-- {string} 数据源名称，不可为空
+ * @param layerName=-- {string} 数据源图层名称，当数据源为矢量切片时不可为空，其余可为空
+ * @param color='#3e25ac' {string} 填充颜色，可为空，默认为‘#3e25ac’
+ * @param opacity=1 {number} 填充透明度，可为空，默认为1
+ * @param outlineColor='#000' {string} 边框颜色，可为空，默认为‘#000’
+ * @return polygonLayer {object} polygon图层对象
+ */
+let addPolygonLayer = function (map, id, sourceName, layerName, color, opacity, outlineColor,) {
+    color = color? color:'#3e25ac';
+    opacity = opacity? opacity:1;
+    outlineColor = outlineColor? outlineColor:'#000';
+    if (layerName) {
+        map.addLayer({
+            id: id,
+            'type': 'fill',
+            "source": sourceName,
+            "source-layer": layerName,
+            'paint': {
+                'fill-color': color,
+                'fill-opacity': opacity,
+                'fill-outline-color': outlineColor,
+            }
+        });
+    } else {
+        map.addLayer({
+            id: id,
+            'type': 'fill',
+            "source": sourceName,
+            'paint': {
+                'fill-color': color,
+                'fill-opacity': opacity,
+                'fill-outline-color': outlineColor,
+            }
+        });
+    }
+    return map.getLayer(id);
+};
+/**
+ * 加载线图层
+ * @method addLineLayer
+ * @memberOf Layer
+ * @example
+ * jmap.JYLayer.addLineLayer(map,'road','zzmap','map_roalk_arc','#62d6ff',1,2);
+ * @param map=-- {object} 地图对象，不可为空
+ * @param id=-- {string} 图层ID，不可为空
+ * @param sourceName=-- {string} 数据源名称，不可为空
+ * @param layerName=-- {string} 数据源图层名称，当数据源为矢量切片时不可为空，其余可为空
+ * @param color='#7ec2ff' {string} 填充颜色，可为空，默认为‘#7ec2ff’
+ * @param opacity=1 {number} 透明度，可为空，默认为1
+ * @param width=1 {number} 线宽，可为空，默认为1
+ * @return LineLayer {object} Line图层对象
+ */
+let addLineLayer = function (map, id, sourceName, layerName, color, opacity, width) {
+    color = color? color:'#7ec2ff';
+    opacity = opacity? opacity:1;
+    width = width?width: 1 ;
+    if (layerName) {
+        map.addLayer({
+            id: id,
+            'type': 'line',
+            "source": sourceName,
+            "source-layer": layerName,
+            'paint': {
+                'line-color': color,
+                'line-opacity': opacity,
+                'line-width': width
+            }
+        });
+    } else {
+        map.addLayer({
+            id: id,
+            'type': 'line',
+            "source": sourceName,
+            'paint': {
+                'line-color': color,
+                'line-opacity': opacity,
+                'line-width': width
+            }
+        });
+    }
+    return map.getLayer(id);
+};
+/**
+ * 加载点图层
+ * @method addPointLayer
+ * @memberOf Layer
+ * @example
+ * jmap.JYLayer.addPointLayer(map,'countyPoint','zzmap','map_town_point',10,'#ffdb75',1);
+ * @param map=-- {object} 地图对象，不可为空
+ * @param id=-- {string} 图层ID，不可为空
+ * @param sourceName=-- {string} 数据源名称，不可为空
+ * @param layerName=-- {string} 数据源图层名称，当数据源为矢量切片时不可为空，其余可为空
+ * @param radius=1 {number} 点半径，可为空，默认为1
+ * @param color='#9bffe4' {string} 点颜色，可为空，默认为‘#9bffe4’
+ * @param opacity=1 {number} 透明度，可为空，默认为1
+ * @return PointLayer {object} Point图层对象
+ */
+let addPointLayer = function (map, id, sourceName, layerName, radius, color, opacity) {
+    color = color? color:'#9bffe4';
+    opacity = opacity? opacity:1;
+    radius = radius? radius:1;
+    if (layerName) {
+        map.addLayer({
+            id: id,
+            'type': 'circle',
+            "source": sourceName,
+            "source-layer": layerName,
+            'paint': {
+                'circle-color': color,
+                'circle-opacity': opacity,
+                'circle-radius': radius
+            }
+        });
+    } else {
+        map.addLayer({
+            id: id,
+            'type': 'circle',
+            "source": sourceName,
+            'paint': {
+                'circle-color': color,
+                'circle-opacity': opacity,
+                'circle-radius': radius
+            }
+        });
+    }
+    return map.getLayer(id);
+
+};
+/**
+ * 加载符号图层
+ * @method addSymbolLayer
+ * @memberOf Layer
+ * @example
+ * jmap.JYLayer.addSymbolLayer(map,'town_symbol','zzmap','map_town_point','point','map_hotel_point',0.3,"#80e4ff",1)
+ * @param map=-- {object} 地图对象，不可为空
+ * @param id=-- {string} 图层ID，不可为空
+ * @param sourceName=-- {string} 数据源名称，不可为空
+ * @param layerName=-- {string} 数据源图层名称，当数据源为矢量切片时不可为空，其余可为空
+ * @param placement=point {enum} 图标相对图形位置，“point”，“line”，“line-center”，后两者选项只有在图形为线或多边形可用。
+ * @param image=-- {string}  精灵中用于绘制图像背景的图像名称，不可为空（后期需确定图标库，提供参考）
+ * @param size=1 {number} 图像缩放因子，默认为1
+ * @param color='#7ec2ff' {string} 图标颜色，可为空，默认为‘#7ec2ff’
+ * @param opacity=1 {number} 图标透明度，可为空，默认为1
+ * @return SymbolLayer {object} Symbol图层对象
+ */
+let addSymbolLayer = function (map, id, sourceName, layerName, placement, image, size, color, opacity,visibility) {
+    color = color? color:'#7ec2ff';
+    opacity = opacity? opacity:1;
+    placement = placement?  placement:'point';
+    visibility = visibility? visibility: 'visible';
+    size = size? size :1;
+    if (layerName) {
+        map.addLayer({
+            id: id,
+            'type': 'symbol',
+            "source": sourceName,
+            "source-layer": layerName,
+            'layout': {
+                'symbol-placement': placement,
+                'icon-image': image,
+                'icon-size': size,
+                'visibility':visibility,
+
+            },
+            'paint': {
+                'icon-color': color,
+                'icon-opacity': opacity,
+            }
+        });
+    } else {
+        map.addLayer({
+            id: id,
+            'type': 'symbol',
+            "source": sourceName,
+            'layout': {
+                'symbol-placement': placement,
+                'icon-image': image,
+                'icon-size': size,
+                'visibility':visibility,
+            },
+            'paint': {
+                'icon-color': color,
+                'icon-opacity': opacity,
+            }
+        });
+    }
+    return map.getLayer(id);
+
+};
+/**
+ * 加载文字标签
+ * @method addTextLayer
+ * @memberOf Layer
+ * @example
+ * jmap.JYLayer.addTextLayer(map,'town','zzmap','map_town_point','xzqmc',0,'YaHei',[0,0],"#fff");
+ * @param map=-- {object} 地图对象，不可为空
+ * @param id=-- {string} 图层ID，不可为空
+ * @param sourceName=-- {string} 数据源名称，不可为空
+ * @param layerName=-- {string} 数据源图层名称，当数据源类型为矢量切片时不可为空，其余可为空
+ * @param field=-- {string} 文本字段，不可为空
+ * @param spacing=0 {number} 字符间距，默认为0
+ * @param font=‘YaHei’ {string} 字体，{'SimSun Regular','YaHei','YaHei Bold'}目前只支持3种字体，默认为‘YaHei’
+ * @param offset=[0,0]] {array} 文字偏移，可选的数字数组,数字为ems单位，默认为[0,0]
+ * @param color='#fff' {string} 字体颜色，可为空，默认为‘#fff’
+ * @return TextLayer {object} TextLayer图层对象
+ */
+let addTextLayer = function (map, id, sourceName, layerName, field, spacing, font, offset, color) {
+    color = color?color: '#fff';
+    spacing = spacing?  spacing:0;
+    font = font? font:'YaHei';
+    offset = offset?  offset:[0, 0];
+    if (layerName) {
+        map.addLayer({
+            id: id,
+            'type': 'symbol',
+            "source": sourceName,
+            "source-layer": layerName,
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{" + field + "}",
+                "text-size": 20,
+                "text-letter-spacing": spacing,
+                "text-offset": offset,
+                "text-font": [font],
+            },
+            'paint': {
+                "text-color": color
+            }
+        });
+    } else {
+        map.addLayer({
+            id: id,
+            'type': 'symbol',
+            "source": sourceName,
+            "layout": {
+                "symbol-placement": "point",
+                "text-field": "{" + field + "}",
+                "text-size": 20,
+                "text-letter-spacing": spacing,
+                "text-offset": offset,
+                "text-font": [font],
+            },
+            'paint': {
+                "text-color": color
+            }
+        });
+    }
+    return map.getLayer(id);
+
+};
+/**
+ * 加载3D多边形图层
+ * @method add3DPolygonLayer
+ * @memberOf Layer
+ * @example
+ * jmap.JYLayer.add3DPolygonLayer(map,'3Dbuilding','zzmap','map_resnt_polygon',100,'#888888',0.8)
+ * @param map=-- {object} 地图对象，不可为空
+ * @param id=-- {string} 图层ID，不可为空
+ * @param sourceName=-- {string} 数据源名称，不可为空
+ * @param layerName=-- {string} 数据源图层名称，当数据源为矢量切片时不可为空，其余可为空
+ * @param height=100 {number} 3D填充高度，可为空，默认为100
+ * @param color='#bab7b4' {string} 3d填充颜色，可为空，默认为‘#bab7b4’
+ * @param opacity=1 {number} 3d填充透明度，可为空，默认为1
+ * @return 3DPolygonLayer {object} 3DPolygon图层对象
+ */
+let add3DPolygonLayer = function (map, id, sourceName, layerName, height, color, opacity) {
+    color = color? color:'#bab7b4';
+    height = height?height: 100 ;
+    opacity = opacity? opacity:1 ;
+    if (layerName) {
+        map.addLayer({
+            id: id,
+            'type': 'fill-extrusion',
+            "source": sourceName,
+            "source-layer": layerName,
+            'paint': {
+                "fill-extrusion-opacity": opacity,
+                "fill-extrusion-color": color,
+                "fill-extrusion-height": height,
+            }
+        });
+    } else {
+        map.addLayer({
+            id: id,
+            'type': 'fill-extrusion',
+            "source": sourceName,
+            'paint': {
+                "fill-extrusion-opacity": opacity,
+                "fill-extrusion-color": color,
+                "fill-extrusion-height": height,
+            }
+        });
+    }
+    return map.getLayer(id);
+
+};
+/**
+ * 加载geojson图层
+ * @method addGeojsonLayer
+ * @memberOf Layer
+ * @example
+ * jmap.JYLayer.addGeojsonLayer(map,'medicalPoint','medical','point',1,"#006","#ffc71a",1,5);
+ * @param map=-- {object} 地图对象，不可为空
+ * @param id=-- {string} 图层ID，不可为空
+ * @param sourceName=-- {string} 数据源名称，不可为空
+ * @param type=-- {string} geojson类型，必须为{"point","line","polygon"}之一，不可为空
+ * @param width=1 {number} 线宽，可为空，默认为1
+ * @param strokeColor="#000" {string} 线色，可为空，默认为"#000"
+ * @param fillColor='#04eee6' {string} 填充颜色，可为空，默认为‘#04eee6’,只有当'type'值为"point"或"polyogn"才有效
+ * @param opacity=1 {number} 3d填充透明度，默认为1
+ * @param radius=2 {number} 点大小，可为空，默认为2，只有当'type'值为"point"才有效
+ * @return geojsonLayer {object} geojson图层对象
+ */
+let addGeojsonLayer = function (map, id, sourceName, type, width, strokeColor, fillColor, opacity, radius) {
+    type = type == 'point' ? "circle" : type;
+    width = width? width: 1;
+    strokeColor = strokeColor?strokeColor: '#000';
+    fillColor = fillColor? fillColor:'#04eee6';
+    opacity = opacity? opacity:1;
+    radius = radius?  radius:2;
+    if (type === 'circle') {
+        map.addLayer({
+            "id": id,
+            "type": "circle",
+            "source": sourceName,
+            paint: {
+                "circle-color": fillColor,
+                "circle-radius": radius,
+                'circle-stroke-color': strokeColor,
+                'circle-stroke-width': width,
+                'circle-opacity': opacity,
+            }
+        })
+    } else if (type === 'line') {
+        map.addLayer({
+            id: id,
+            'type': 'line',
+            "source": sourceName,
+            'paint': {
+                'line-color': strokeColor,
+                'line-opacity': opacity,
+                'line-width': width
+            }
+        });
+    } else if (type === 'polygon') {
+        map.addLayer({
+            id: id,
+            'type': 'fill',
+            "source": sourceName,
+            'paint': {
+                'fill-color': fillColor,
+                'fill-opacity': opacity,
+                'fill-outline-color': strokeColor,
+            }
+        });
+    } else {
+        console.log('typeError', "请从{\"point\",\"line\",\"polygon\"}之一选择正确的geojson格式");
+    }
+    return map.getLayer(id);
+
+};
+/**
+ * 加载Heatmap图层
+ * @method addHeatmapLayer
+ * @memberOf Layer
+ * @example
+ * let weight=[
+ * "interpolate",
+ * ["linear"],
+ * ["get", "mag"],
+ * 0, 0,
+ * 6, 1
+ * ];
+ * let colors= [
+ * "interpolate",
+ * ["linear"],
+ * ["heatmap-density"],
+ * 0, "#2166ac",
+ * 0.2, "#67a9cf",
+ * 0.4, "#D1E5F0",
+ * 0.6, "#fddbc7",
+ * 0.8, "#ef8a62",
+ * 1, "#b2182b"
+ * ];
+ * let intensity=[
+ * "interpolate",
+ * ["linear"],
+ * ["zoom"],
+ * 0, 1,
+ * 9, 3
+ * ];
+ * let opacity=[
+ * "interpolate",
+ * ["linear"],
+ * ["zoom"],
+ * 7, 1,
+ * 9, 0
+ * ];
+ * let radious=[
+ * "interpolate",
+ * ["linear"],
+ * ["zoom"],
+ * 0, 2,
+ * 9, 20
+ * ];
+ * jmap.JYLayer.addHeatmapLayer(map,'earthquakes-heat','earthquakes',weight,intensity,opacity,radious,colors);
+ * @param map=-- {object} 地图对象，不可为空
+ * @param id=-- {string} 图层ID，不可为空
+ * @param sourceName=-- {string} 数据源名称，不可为空
+ * @param weight=1 {number} 热力图权重。用于衡量单个点对热图的贡献程度。值10相当于在同一点中具有10个重量点1，不可为空
+ * @param intensity=1 {number} 热力图强度，全局控制热图的强度。可选数字大于等于0，可为空
+ * @param opacity=1 {number} 透明度，默认为1，可为空
+ * @param radius=2 {number} 点大小，默认为2，可为空
+ * @param colors=-- {string} 热力图颜色，数组长度为6，默认为"#2166ac",可为空
+ * @return HeatmapLayer {object} Heatmap图层对象
+ */
+let addHeatmapLayer = function (map, id, sourceName, weight, intensity, opacity, radius, colors) {
+    intensity = intensity?  intensity:1 ;
+    opacity = opacity?opacity: 1 ;
+    radius = radius? radius:2 ;
+    colors = colors? colors:"#2166ac";
+    map.addLayer({
+        "id": id,
+        "type": "heatmap",
+        "source": sourceName,
+        "maxzoom": 9,
+        "paint": {
+            "heatmap-weight": weight,
+            "heatmap-intensity": intensity,
+            "heatmap-color": colors,
+            "heatmap-radius": radius,
+            "heatmap-opacity": opacity,
+        }
+    });
+    return map.getLayer(id);
+};
+/**
+ * 创建点要素
+ * @method createPointLayer
+ * @memberOf Layer
+ * @example
+ * let medialPoint=[
+ * [112.754425, 35.414139],
+ * [112.844425, 35.344139],
+ * [112.744425, 35.454139],
+ * [112.864425, 35.394139],
+ * [112.754425, 35.464139],
+ * [112.614425, 35.354139],
+ * [112.834425, 35.464139],
+ * [112.844425, 35.354139],
+ * [112.864425, 35.354139],
+ * ];
+ * jmap.JYLayer.createPointLayer(map,'point',medialPoint,10,'#3fe2e2',1);
+ * @param map=-- {object} 地图对象，不可为空
+ * @param id=-- {string} 图层ID，不可为空
+ * @param coordinates=-- {array} 点坐标数组，不可为空
+ * @param radius=1 {number} 点半径，可为空，默认为1
+ * @param color='#7ec2ff' {string} 点颜色，可为空，默认为‘#7ec2ff’
+ * @param opacity=1 {number} 透明度，可为空，默认为1
+ * @return point {object} point要素对象
+ */
+let createPointLayer = function (map, id, coordinates, radius, color, opacity) {
+    color = color? color:'#7ec2ff';
+    opacity = opacity? opacity:1;
+    radius = radius? radius:1;
+    let geojson = {
+        "type": "FeatureCollection",
+        "features": []
+    };
+    for (let i = 0; i &lt; coordinates.length; i++) {
+        geojson.features.push({
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": coordinates[i],
+            },
+            "properties": {}
+        })
+    }
+    map.addLayer({
+        id: id,
+        'type': 'circle',
+        "source": {
+            "type": "geojson",
+            "data": geojson
+        },
+        'paint': {
+            'circle-color': color,
+            'circle-opacity': opacity,
+            'circle-radius': radius
+        }
+    });
+    return map.getLayer(id);
+};
+/**
+ * 创建线要素
+ * @method createLineLayer
+ * @memberOf Layer
+ * @example
+ * let linePoint=[
+ * [112.754425, 35.414139],
+ * [112.844425, 35.344139],
+ * [112.744425, 35.454139],
+ * [112.864425, 35.394139],
+ * [112.754425, 35.464139],
+ * [112.614425, 35.354139],
+ * [112.834425, 35.464139],
+ * [112.844425, 35.354139],
+ * [112.864425, 35.354139],
+ * ];
+ * jmap.JYLayer.createLineLayer(map,'line',linePoint,'#3fe2e2',1,4);
+ * @param map=-- {object} 地图对象，不可为空
+ * @param id=-- {string} 图层ID，不可为空
+ * @param coordinates=-- {array} 点坐标数组，不可为空
+ * @param color='#7ec2ff' {string} 填充颜色，可为空，默认为‘#7ec2ff’
+ * @param opacity=1 {number} 透明度，可为空，默认为1
+ * @param width=1 {number} 线宽，可为空，默认为1
+ * @return line {object} line要素对象
+ */
+let createLineLayer = function (map, id, coordinates, color, opacity, width) {
+    color = color?  color:'#7ec2ff';
+    opacity = opacity? opacity: 1;
+    width = width? width:1 ;
+    map.addLayer({
+        id: id,
+        'type': 'line',
+        "source": {
+            "type": "geojson",
+            "data": {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": coordinates,
+                },
+            },
+            'lineMetrics': true,
+        },
+        'paint': {
+            'line-color': color,
+            'line-opacity': opacity,
+            'line-width': width
+        }
+    });
+    return map.getLayer(id);
+};
+/**
+ * 创建面要素
+ * @method createPolygonLayer
+ * @memberOf Layer
+ * @example
+ * let polygonPoint=[[
+ * [112.754425, 35.314139],
+ * [112.764425, 35.454139],
+ * [112.614425, 35.354139],
+ * [112.754425, 35.314139]]
+ * ];
+ * jmap.JYLayer.createPolygonLayer(map,'polygon',polygonPoint,'#e26851',0.8,'#000');
+ * @param map=-- {object} 地图对象，不可为空
+ * @param id=-- {string} 图层ID，不可为空
+ * @param coordinates=-- {array} 多边形坐标数组,多边形第一点和最后一点需闭合,[[[x1,y1],[x2,y2],[x3,y3],[x1,y1]]],不可为空
+ * @param color='#7ec2ff' {string} 填充颜色，可为空，默认为‘#7ec2ff’
+ * @param opacity=1 {number} 填充透明度，可为空，默认为1
+ * @param outlineColor='#000' 边框颜色，可为空，默认为‘#000’
+ * @return polygon {object} polygon要素对象
+ */
+let createPolygonLayer = function (map, id, coordinates, color, opacity, outlineColor) {
+    color = color? color:'#7ec2ff';
+    opacity = opacity? opacity: 1;
+    outlineColor = outlineColor? outlineColor:'#000';
+    map.addLayer({
+        id: id,
+        'type': 'fill',
+        "source": {
+            "type": "geojson",
+            "data": {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": coordinates,
+                }
+            }
+        },
+        'paint': {
+            'fill-color': color,
+            'fill-opacity': opacity,
+            'fill-outline-color': outlineColor,
+        }
+    });
+    return map.getLayer(id);
+};
+/**
+ * 创建矩形要素
+ * @method createRectangleLayer
+ * @memberOf Layer
+ * @example
+ * let rectanglePoint=[[
+ * [112.75, 35.51],
+ * [112.65, 35.31]]
+ * ];
+ * jmap.JYLayer.createRectangleLayer(map,'polygon',rectanglePoint,'#e26851',0.8,'#000');
+ * @param map=-- {object} 地图对象，不可为空
+ * @param id=-- {string} 图层ID，不可为空
+ * @param coordinates=-- {array} 矩形对角坐标数组,[[[x1,y1],[x2,y2]]],不可为空
+ * @param color='#7ec2ff' {string} 填充颜色，可为空，默认为‘#7ec2ff’
+ * @param opacity=1 {number} 填充透明度，可为空，默认为1
+ * @param outlineColor='#000' 边框颜色，可为空，默认为‘#000’
+ * @return polygon {object} polygon要素对象
+ */
+let createRectangleLayer = function (map, id, coordinates, color, opacity, outlineColor) {
+    color = color? color:'#7ec2ff';
+    opacity = opacity? opacity:1 ;
+    outlineColor = outlineColor? outlineColor:'#000';
+
+    //创建矩形边界坐标组
+    function min(a, b) {
+        return a > b ? b : a;
+    }
+
+    function max(a, b) {
+        return a > b ? a : b;
+    }
+
+    let temp = null;
+    let x1 = coordinates[0][0][0];
+    let y1 = coordinates[0][0][1];
+    let x2 = coordinates[0][1][0];
+    let y2 = coordinates[0][1][1];
+    if ((x2 - x1) * (y2 - y1) > 0) {
+        temp = [[
+            [x1, y1],
+            [min(x1, x2), max(y1, y2)],
+            [x2, y2],
+            [max(x1, x2), min(y1, y2)],
+            [x1, y1]
+        ]]
+    } else if ((x2 - x1) * (y2 - y1) &lt; 0) {
+        temp = [[
+            [x1, y1],
+            [min(x1, x2), min(y1, y2)],
+            [x2, y2],
+            [max(x1, x2), max(y1, y2)],
+            [x1, y1]
+        ]]
+    }
+    map.addLayer({
+        id: id,
+        'type': 'fill',
+        "source": {
+            "type": "geojson",
+            "data": {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": temp,
+                }
+            }
+        },
+        'paint': {
+            'fill-color': color,
+            'fill-opacity': opacity,
+            'fill-outline-color': outlineColor,
+        }
+    });
+    return map.getLayer(id);
+};
+/**
+ * 根据点集创建最小外接矩形
+ * @method createMinRectangle
+ * @memberOf Layer
+ * @example
+ * let rectanglePoint=[
+ * [112.75, 35.51],
+ * [112.65, 35.31],
+ * [112.77, 35.32],
+ * [112.58, 35.23],
+ * [112.56, 35.67],
+ * [112.75, 35.51]
+ * ];
+ * jmap.JYLayer.createMinRectangle(map,'Rectangle',rectanglePoint,'#e26851',0.8,'#000');
+ * @param map=-- {object} 地图对象，不可为空
+ * @param id=-- {string} 图层ID，不可为空
+ * @param d=-- {array} 坐标点集,不可为空
+ * @param color='#7ec2ff' {string} 填充颜色，可为空，默认为‘#7ec2ff’
+ * @param opacity=1 {number} 填充透明度，可为空，默认为1
+ * @param outlineColor='#000' 边框颜色，可为空，默认为‘#000’
+ * @return polygon {object} polygon要素对象
+ */
+let createMinRectangle = function (map, id, d, color, opacity, outlineColor) {
+    color = color? color:'#7ec2ff';
+    opacity = opacity? opacity:1;
+    outlineColor = outlineColor?  outlineColor:'#000';
+
+    let minX = d[0][0],
+        minY = d[0][1],
+        maxX = d[0][0],
+        maxY = d[0][1],
+        l = d.length;
+    for (let i = 0; i &lt; l; i++) {
+        if (d[i][0] &lt; minX)
+            minX = d[i][0];
+        if (d[i][1] &lt; minY)
+            minY = d[i][1];
+        if (d[i][0] > maxX)
+            maxX = d[i][0];
+        if (d[i][1] > maxY)
+            maxY = d[i][1];
+    }
+    let bound = [[[minX, minY], [maxX, maxY]]];
+
+    //创建矩形边界坐标组
+    function min(a, b) {
+        return a > b ? b : a;
+    }
+
+    function max(a, b) {
+        return a > b ? a : b;
+    }
+
+    let temp = null;
+    let x1 = bound[0][0][0];
+    let y1 = bound[0][0][1];
+    let x2 = bound[0][1][0];
+    let y2 = bound[0][1][1];
+    if ((x2 - x1) * (y2 - y1) > 0) {
+        temp = [[
+            [x1, y1],
+            [min(x1, x2), max(y1, y2)],
+            [x2, y2],
+            [max(x1, x2), min(y1, y2)],
+            [x1, y1]
+        ]]
+    } else if ((x2 - x1) * (y2 - y1) &lt; 0) {
+        temp = [[
+            [x1, y1],
+            [min(x1, x2), min(y1, y2)],
+            [x2, y2],
+            [max(x1, x2), max(y1, y2)],
+            [x1, y1]
+        ]]
+    }
+    map.addLayer({
+        id: id,
+        'type': 'fill',
+        "source": {
+            "type": "geojson",
+            "data": {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": temp,
+                }
+            }
+        },
+        'paint': {
+            'fill-color': color,
+            'fill-opacity': opacity,
+            'fill-outline-color': outlineColor,
+        }
+    });
+    return map.getLayer(id);
+};
+/**
+ * 创建marker要素
+ * @method createMarkerLayer
+ * @memberOf Layer
+ * @example
+ * jmap.JYLayer.createMarkerLayer(map,[112.754425, 35.414139],'marker');
+ * @param map=-- {object} 地图对象，不可为空
+ * @param coordinates=-- {array} marker位置的坐标，如[112.75, 35.41],不可为空。
+ * @param className=marker {string} marker所属HTML要素类名，可为空，默认为marker，用户需自定义marker类样式
+ * @return marker {object} marker要素对象
+ */
+let createMarkerLayer = function (map, coordinates, className,callback) {
+    className = className?  className:'marker';
+    //创建marker
+    let el = document.createElement('div');
+    el.className = className;
+    el.addEventListener('click', function() {
+        callback()
+    });
+    let marker = new mapboxgl.Marker(el)
+        .setLngLat(coordinates)
+        .addTo(map);
+    return marker;
+};
+/**
+ * 创建popup弹窗
+ * @method createPopup
+ * @memberOf Layer
+ * @example
+ * jmap.JYLayer.createPopup(map,[112.85, 35.49],'这是一个弹窗！')
+ * @param map=-- {object} 地图对象，不可为空
+ * @param coordinates=-- {array} popup弹窗位置的坐标，如[112.75, 35.41],不可为空。
+ * @param text="Hello,World!" {string}  popup弹窗显示文本内容，可为空，默认为"Hello World!"
+ * @param closeOnClick=false {Boolean } 如果true，单击地图时弹出窗口将关闭,可为空，默认为false。
+ * @param closeButton=false {Boolean } 如果true ，弹出窗口的右上角会出现一个关闭按钮,可为空,默认为false。
+ * @param className=-- {string} 要添加到弹出容器的以空格分隔的CSS类名，可为空，默认不添加类名
+ * @return popup {object} 弹窗对象
+ */
+let createPopup = function (map, coordinates, text,closeOnClick,closeButton,className) {
+    text = text?  text:"Hello World!";
+    closeOnClick = closeOnClick?  closeOnClick:false;
+    closeButton = closeButton?  closeButton:false;
+    className = className?  className:null;
+    //创建popup
+    let popup = new mapboxgl.Popup({
+        closeOnClick: closeOnClick,
+        closeButton:closeButton,
+        className:className
+    })
+        .setLngLat(coordinates)
+        .setText(text)
+        .addTo(map);
+    return popup;
+};
+/**
+ * 在Marker上创建popup弹窗
+ * @method createMarkerPopup
+ * @memberOf Layer
+ * @example
+ * let marker=jmap.JYLayer.createMarkerLayer(map,[112.754425, 35.414139],'marker','../img/marker-icon.png',25,41);
+ * jmap.JYLayer.createMarkerPopup(map,marker,'这是一个Marker弹窗');
+ * @param map=-- {object} 地图对象，不可为空
+ * @param marker=-- {array} marker对象,不可为空。
+ * @param text="Hello,World!" {string}  popup弹窗显示文本内容，默认为"Hello World!"
+ * @param closeOnClick=false {Boolean } 如果true，单击地图时弹出窗口将关闭,可为空，默认为false。
+ * @param closeButton=false {Boolean } 如果true ，弹出窗口的右上角会出现一个关闭按钮,可为空,默认为false。
+ * @param className=-- {string} 要添加到弹出容器的以空格分隔的CSS类名，可为空，默认不添加类名
+ * @return popup {object} 弹窗对象
+ */
+let createMarkerPopup = function (map, marker, text,closeOnClick,closeButton,className) {
+    text = text?  text:"Hello World!";
+    closeOnClick = closeOnClick?  closeOnClick:false;
+    closeButton = closeButton?  closeButton:false;
+    className = className?  className:null;
+    //创建popup
+    let popup = new mapboxgl.Popup({
+        closeOnClick: closeOnClick,
+        closeButton:closeButton,
+        className:className
+    })
+        .setText(text)
+        .addTo(map);
+    marker.setPopup(popup);
+    return popup;
+};
+/**
+ * 获取图层
+ * @method getLayer
+ * @memberOf Layer
+ * @example
+ * jmap.JYLayer.addPolygonLayer(map,'town_polygon','zzmap','map_town_polygon','#3e25ac',1,'#07002c');
+ * jmap.JYLayer.getLayer(map,'town_polygon');
+ * @param map=-- {object} 地图对象，不可为空
+ * @param layerID=-- {string} 图层ID名称，唯一，不可为空
+ */
+let getLayer = function (map, layerID) {
+    map.getLayer(layerID);
+};
+/**
+ * 移动图层到指定图层之前
+ * @method moveLayer
+ * @memberOf Layer
+ * @example
+ * jmap.JYLayer.addLineLayer(map,'road','zzmap','map_roalk_arc','#62d6ff',1,2);
+ * jmap.JYLayer.addPolygonLayer(map,'town_polygon','zzmap','map_town_polygon','#3e25ac',1,'#07002c');
+ * jmap.JYLayer.moveLayer(map,'town_polygon','road');//将图层‘town_polygon’到‘road’图层之前
+ * @param map=-- {object} 地图对象，不可为空
+ * @param layerID=-- {string} 要移动的图层ID名称，唯一，不可为空
+ * @param beforeID=-- {string} 已存在，指定移动位置图层的ID名称，唯一，不可为空
+ */
+let moveLayer = function (map, layerID, beforeID) {
+    map.moveLayer(layerID, beforeID);
+};
+/**
+ * 删除图层
+ * @method removeLayer
+ * @memberOf Layer
+ * @example
+ * jmap.JYLayer.addPolygonLayer(map,'town_polygon','zzmap','map_town_polygon','#3e25ac',1,'#07002c');
+ * jmap.JYLayer.removeLayer(map,'town_polygon');
+ * @param map=-- {object} 地图对象，不可为空
+ * @param layerID=-- {string} 图层ID名称，唯一，不可为空
+ */
+let removeLayer = function (map, layerID) {
+    map.removeLayer(layerID);
+};
+module.exports = {
+    addbgLayer,
+    addRasterLayer,
+    addDemLayer,
+    addMediaLayer,
+    addPolygonLayer,
+    addLineLayer,
+    addPointLayer,
+    addSymbolLayer,
+    addTextLayer,
+    add3DPolygonLayer,
+    addGeojsonLayer,
+    addHeatmapLayer,
+    createPointLayer,
+    createLineLayer,
+    createPolygonLayer,
+    createRectangleLayer,
+    createMinRectangle,
+    createMarkerLayer,
+    createPopup,
+    createMarkerPopup,
+    getLayer,
+    moveLayer,
+    removeLayer
+}
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.6</a> on Fri Sep 25 2020 11:53:40 GMT+0800 (GMT+08:00) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+<script src="scripts/collapse.js" defer></script>
+
+
+</body>
+</html>

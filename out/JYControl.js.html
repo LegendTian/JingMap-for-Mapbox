@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>JYControl.js - Docdash</title>
+    
+    <meta name="description" content="A clean, responsive documentation template theme for JSDoc 3." />
+    
+        <meta name="keywords" content="jsdoc, docdash" />
+        <meta name="keyword" content="jsdoc, docdash" />
+    
+    
+    
+    <meta property="og:title" content="Docdash"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://cloud.githubusercontent.com/assets/447956/13398144/4dde7f36-defd-11e5-8909-1a9013302cb9.png"/>
+    <meta property="og:site_name" content="Docdash"/>
+    <meta property="og:url" content="http://clenemt.github.io/docdash/"/>
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://github.com/clenemt/docdash" target="_blank" class="menu-item" id="repository" >Github repo</a></h2><h3>Namespaces</h3><ul><li><a href="Analysis.html">Analysis</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Analysis.html#.booleanEqual">booleanEqual</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.bufferAnalysis">bufferAnalysis</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.distancePointOnLine">distancePointOnLine</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.intersectPolygon">intersectPolygon</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.isolatedPoint">isolatedPoint</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.measureArea">measureArea</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.measureCoordinates">measureCoordinates</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.measureDistance">measureDistance</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.pointAlongLine">pointAlongLine</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.pointsWithinPolygon">pointsWithinPolygon</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#getHullPolygon">getHullPolygon</a></li></ul></li><li><a href="Control.html">Control</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Control.html#.addAttributionControl">addAttributionControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addCompareControl">addCompareControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addDrawControl">addDrawControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addFullscreenControl">addFullscreenControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addGeolacateControl">addGeolacateControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addLayerControl">addLayerControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addLayerControlEx">addLayerControlEx</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addLegendControl">addLegendControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addNavigationControl">addNavigationControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addScaleControl">addScaleControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addSearchControl">addSearchControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addThemeLegendControl">addThemeLegendControl</a></li></ul></li><li><a href="Layer.html">Layer</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Layer.html#.add3DPolygonLayer">add3DPolygonLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addbgLayer">addbgLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addDemLayer">addDemLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addGeojsonLayer">addGeojsonLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addHeatmapLayer">addHeatmapLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addLineLayer">addLineLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addMediaLayer">addMediaLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addPointLayer">addPointLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addPolygonLayer">addPolygonLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addRasterLayer">addRasterLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addSymbolLayer">addSymbolLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addTextLayer">addTextLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createLineLayer">createLineLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createMarkerLayer">createMarkerLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createMarkerPopup">createMarkerPopup</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createMinRectangle">createMinRectangle</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createPointLayer">createPointLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createPolygonLayer">createPolygonLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createPopup">createPopup</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createRectangleLayer">createRectangleLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.getLayer">getLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.moveLayer">moveLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.removeLayer">removeLayer</a></li></ul></li><li><a href="Map.html">Map</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Map.html#.addMapboxMap">addMapboxMap</a></li><li data-type='method' style='display: none;'><a href="Map.html#.borderToMask">borderToMask</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getCenterByCode">getCenterByCode</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapBounds">getMapBounds</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapCenter">getMapCenter</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapMaxZoom">getMapMaxZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapMinZoom">getMapMinZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapZoom">getMapZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getPointsByCode">getPointsByCode</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getPolygonByCode">getPolygonByCode</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapFlyTo">mapFlyTo</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapJumpTo">mapJumpTo</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapStop">mapStop</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapZoomIn">mapZoomIn</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapZoomOut">mapZoomOut</a></li><li data-type='method' style='display: none;'><a href="Map.html#.removeMap">removeMap</a></li><li data-type='method' style='display: none;'><a href="Map.html#.setMapCenter">setMapCenter</a></li><li data-type='method' style='display: none;'><a href="Map.html#.setMapMaxZoom">setMapMaxZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.setMapMinZoom">setMapMinZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.setMapZoom">setMapZoom</a></li></ul></li><li><a href="Source.html">Source</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Source.html#.addSource">addSource</a></li><li data-type='method' style='display: none;'><a href="Source.html#.removeSource">removeSource</a></li></ul></li><li><a href="Style.html">Style</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Style.html#.getLayerFilter">getLayerFilter</a></li><li data-type='method' style='display: none;'><a href="Style.html#.getLayerLayout">getLayerLayout</a></li><li data-type='method' style='display: none;'><a href="Style.html#.getLayerPaint">getLayerPaint</a></li><li data-type='method' style='display: none;'><a href="Style.html#.getMapStyle">getMapStyle</a></li><li data-type='method' style='display: none;'><a href="Style.html#.setLayerFilter">setLayerFilter</a></li><li data-type='method' style='display: none;'><a href="Style.html#.setLayerLayout">setLayerLayout</a></li><li data-type='method' style='display: none;'><a href="Style.html#.setLayerPaint">setLayerPaint</a></li><li data-type='method' style='display: none;'><a href="Style.html#.setMapStyle">setMapStyle</a></li></ul></li><li><a href="Visualization.html">Visualization</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Visualization.html#.add3DModel">add3DModel</a></li><li data-type='method' style='display: none;'><a href="Visualization.html#.animateLine">animateLine</a></li><li data-type='method' style='display: none;'><a href="Visualization.html#.animateMarker">animateMarker</a></li><li data-type='method' style='display: none;'><a href="Visualization.html#.animateMarkerByLine">animateMarkerByLine</a></li></ul></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">JYControl.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>
+/** @namespace  Control*/
+const MapboxDraw =require("@mapbox/mapbox-gl-draw");
+const MapboxGeocoder=require("../../libs/mapbox-search/mapbox-gl-geocoder.min")
+const mapboxgl=require("../../libs/mapbox/mapbox-gl");
+window.mapboxgl=mapboxgl;
+require("../../libs/mapbox-gl-compare-master/dist/mapbox-gl-compare.js");
+require("@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.css");
+require("../../libs/mapbox-gl-compare-master/dist/mapbox-gl-compare.css");
+require("../../libs/mapbox-search/mapbox-gl-geocoder.css");
+require("../../libs/layerControl/layerControl.css");
+require("../../libs/legendControl/legendControl.css");
+require("../../libs/themeLegendControl/themeLegendControl.css");
+let LayerControl = require('../../libs/layerControl/layerControl');
+let LayerControlEx = require('../../libs/layerControl/layerControlEx');
+let LegendControl = require('../../libs/legendControl/legendControl');
+let themeLegendControl = require('../../libs/themeLegendControl/themeLegendControl');
+let miniMap=require("../../libs/mapboxgl-minimap-master/mapboxgl-control-minimap.js")
+/**
+ * 加载地图导航控件
+ * @method addNavigationControl
+ * @memberOf Control
+ * @example jmap.JYControl.addNavigationControl(map,'top-left');
+ * @param map=-- {object} 地图对象，不可为空
+ * @param position='top-left' {string} 控件位置,'top-left','top-right','bottom-left','bottom-right'之一可为空，默认为‘top-left’
+ * @return navigation {object} 地图导航控件对象
+ */
+let addNavigationControl=function (map,position) {
+    position=position?position:'top-left';
+    let nav = new mapboxgl.NavigationControl();
+    map.addControl(nav,position);
+    return nav;
+};
+/**
+ * 加载比例尺控件
+ * @method addScaleControl
+ * @memberOf Control
+ * @example jmap.JYControl.addScaleControl(map,'imperial','bottom-right');
+ * @param map=-- {object} 地图对象，不可为空
+ * @param unit='metric' {string} 比例尺单位，'imperial' ,  'metric' or  'nautical'之一，默认为'metric'
+ * @param position='bottom-left' {string} 控件位置,'top-left','top-right','bottom-left','bottom-right'之一可为空，默认为‘bottom-left’
+ * @return scale {object} 比例尺控件对象
+ */
+let addScaleControl=function (map,unit,position) {
+    position=position?position:'bottom-left';
+    unit=unit?unit:'metric';
+    let scale = new mapboxgl.ScaleControl({
+        maxWidth: 100,
+        unit: unit,
+    });
+    map.addControl(scale,position);
+    return scale;
+};
+/**
+ * 加载全屏控件
+ * @method addFullscreenControl
+ * @memberOf Control
+ * @example jmap.JYControl.addFullscreenControl(map,'top-left');
+ * @param map=-- {object} 地图对象，不可为空
+ * @param position='top-left' {string} 控件位置,'top-left','top-right','bottom-left','bottom-right'之一可为空，默认为‘top-left’
+ * @return Fullscreen {object} 全屏控件对象
+ */
+let addFullscreenControl=function (map,position) {
+    position=position?position:'top-left';
+    let Fullscreen=new mapboxgl.FullscreenControl();
+    map.addControl(Fullscreen,position);
+    return Fullscreen;
+};
+/**
+ * 添加地理定位控件
+ * @method addGeolacateControl
+ * @memberOf Control
+ * @example jmap.JYControl.addGeolacateControl(map,'top-right');
+ * @param map=-- {object} 地图对象，不可为空
+ * @param position='top-right' {string} 控件位置,'top-left','top-right','bottom-left','bottom-right'之一可为空，默认为‘top-right’
+ * @return local {object} 位置控件对象
+ */
+let addGeolacateControl=function (map,position) {
+    position=position?position:'top-right';
+    let local=new mapboxgl.GeolocateControl({
+        positionOptions: {
+            enableHighAccuracy: true
+        },
+        trackUserLocation: true
+    });
+    map.addControl(local,position);
+    return local;
+};
+/**
+ * 添加绘制控件
+ * @method addDrawControl
+ * @memberOf Control
+ * @example jmap.JYControl.addDrawControl(map,'top-right');
+ * @param map=-- {object} 地图对象，不可为空
+ * @param position='top-right' {string} 控件位置,'top-left','top-right','bottom-left','bottom-right'之一可为空，默认为‘top-right’
+ * @param style=--{object} 绘制要素时样式，可为空，空则使用模型样式
+ * @return draw {object} 绘制控件对象
+ */
+let addDrawControl=function (map,position,point,line,polygon,style) {
+    position=position?position:'top-right';
+    let draw=null;
+    if(style){
+        draw=new MapboxDraw({
+            displayControlsDefault: true,
+            controls: {
+                point:point,
+                line_string: line,
+                polygon: polygon,
+                trash: true,
+                combine_features :false,
+                uncombine_features :false
+            },
+            styles:style,
+            userProperties:false
+        });
+    }else{
+        draw=new MapboxDraw({
+            displayControlsDefault: true,
+            controls: {
+                point:point,
+                line_string: line,
+                polygon: polygon,
+                trash: true,
+                combine_features :false,
+                uncombine_features :false
+            },
+            userProperties:false
+        });
+    }
+
+    map.addControl(draw,position);
+    return draw;
+};
+/**
+ * 添加卷帘控件
+ * @method addCompareControl
+ * @memberOf Control
+ * @example
+ *     //初始化两个地图，两个地图要求初始中心位置，和缩放级别一致
+ * let beforeMap = jmap.JYMap.addMapboxMap(zzCounty,'before',10,[112.8547, 35.4992]);
+ * let afterMap = jmap.JYMap.addMapboxMap(zzCounty_dark,'after',10,[112.8547, 35.4992]);
+ * let compareMap=jmap.JYControl.addCompareControl(beforeMap, afterMap);
+ * @param before=-- {object} 左侧地图对象，不可为空，两个地图要求初始中心位置，和缩放级别一致
+ * @param after=-- {object} 右侧地图对象，不可为空，两个地图要求初始中心位置，和缩放级别一致
+ * @return compare {object} 卷帘控件对象
+ */
+let addCompareControl=function (before,after) {
+   let compare= new mapboxgl.Compare(before, after);
+   return compare;
+};
+/**
+ * 添加搜索控件
+ * @method addSearchControl
+ * @memberOf Control
+ * @example
+ * let search=jmap.JYControl.addSearchControl(map,searchData,19,'top-left');
+ * @param map=-- {object} 地图对象，不可为空
+ * @param searchData=-- {object} 自定义搜索范围对象，必须为geojson点对象的数组，可为空，默认为全国市、县点
+ * @param flyTo=-- {Boolean} 结果是否跳转，可以为空，默认为true
+ * @param zoom=-- {number} 搜索结果跳转的缩放级别，可为空，默认为地图当前级别,当flyTo为false时，不可用
+ * @param position='top-left' {string} 控件位置,'top-left','top-right','bottom-left','bottom-right'之一可为空，默认为‘top-left’
+ * @return control {object} 搜索控件对象
+ */
+let addSearchControl=function (map,searchData,flyTo,zoom,position) {
+    position=position?position:'top-left';
+    zoom=zoom?zoom:map.getZoom();
+    function forwardGeocoder(query) {
+        let matchingFeatures = [];
+        for (let i = 0; i &lt; searchData.length; i++) {
+            if(searchData[i].features.length){
+                searchData[i].features.forEach(function(obj){
+                    let feature =obj;
+                    Object.keys(obj.properties).forEach(function(key){
+                        if (String(obj.properties[key]).toLowerCase().search(query.toLowerCase()) !== -1) {
+                            feature['place_name'] =obj.properties[key];
+                            feature['center'] = obj.geometry.coordinates;
+                            data=obj;
+                            matchingFeatures.push(feature);
+                        }
+                    })
+                })
+
+                }
+
+            }
+        return matchingFeatures;
+    }
+    //编辑搜索控件
+    let control=new MapboxGeocoder({
+        localGeocoder: forwardGeocoder,
+        placeholder: "搜索",
+        country: "cn",
+        language: "zh-Hans",
+        flyTo:flyTo,
+        zoom: zoom,
+        marker:true,
+    });
+    map.addControl(control, position);
+    return control;
+};
+/**
+ * 添加版权控件
+ * @method addAttributionControl
+ * @memberOf Control
+ * @example
+ * //添加版权控件
+ * const attribution=['© JingMap','© Mapbox'];
+ * jmap.JYControl.addAttributionControl(map,attribution);
+ * @param map=-- {object} 地图对象，不可为空
+ * @param attribution=-- {array} 版权信息数组，不可为空
+ * @param position='bottom-right' {string} 控件位置,'top-left','top-right','bottom-left','bottom-right'之一可为空，默认为‘bottom-right’
+ * @return control {object} 控件对象
+ */
+let addAttributionControl=function (map,attribution,position) {
+    position=position?position:'bottom-right';
+    //编辑版权控件
+    let control=  new mapboxgl.AttributionControl({
+        compact: true,
+        customAttribution:attribution
+    });
+    map.addControl(control,position);
+};
+/**
+ * 加载图层控件
+ * @method addLayerControl
+ * @memberOf Control
+ * @example
+ * //定义基础地图
+ * let baseLayer=[
+ * {title: '明亮', style: zzCounty, active: true},
+ * {title: '黑暗', style: zzCounty_dark},
+ * ];
+ * //定义专题图层
+ * let overLayer=[
+ * {title: '2D专题图', thematic: theme1},
+ * {title: '3D专题图', thematic: theme2}
+ * ];
+ * //添加LayerControl
+ * jmap.JYControl.addLayerControl(map,baseLayer,overLayer,'top-right');
+ * @param map=-- {object} 地图对象，不可为空
+ * @param styles=-- {array} 地图样式对象数组，不可为空
+ * @param thematics=-- {array} 专题图图层样式对象数组，不可为空
+ * @param position='top-left' {string} 控件位置,'top-left','top-right','bottom-left','bottom-right'之一可为空，默认为‘top-left’
+ * @return navigation {object} 地图导航控件对象
+ */
+let addLayerControl=function (map,styles,thematics,position) {
+    position=position?position:'top-left';
+    let control=new LayerControl({
+        styles,
+        thematics,
+    });
+        map.addControl(control,position);
+        return control;
+};
+/**
+ * 加载图层控件(扩展）
+ * @method addLayerControlEx
+ * @memberOf Control
+ * @example
+ * //加载多种图层
+ * jmap.JYSource.addSource(map, "raster", "tiandi", tiandiUrl);
+ * jmap.JYLayer.addRasterLayer(map, "tiandi_layer", "tiandi", 0); ...
+ * //定义基础地图
+ * let baseLayer=[
+ * {title: '天地图', id: ["td", "tdzj"], active: true},
+ * {title: '高德地图', id: ['gaode_layer']},
+ * ];
+ * //定义专题图层
+ * let overLayer=[
+ * {title: '道路', id: 'road'},
+ * {title: '面', id: 'polygon'}
+ * ];
+ * //添加LayerControl
+ * jmap.JYControl.addLayerControlEx(map,baseLayer,overLayer,'top-right');
+ * @param map=-- {object} 地图对象，不可为空
+ * @param baselayers=-- {array} 底图图层对象数组，不可为空
+ * @param overlayers=-- {array} 专题图图层对象数组，可为空
+ * @param position='top-left' {string} 控件位置,'top-left','top-right','bottom-left','bottom-right'之一可为空，默认为‘top-left’
+ * @return control {object} 地图控件对象
+ */
+let addLayerControlEx=function (map,baselayers,overlayers,position) {
+    position=position?position:'top-left';
+    let control=new LayerControlEx({
+        baselayers,
+        overlayers,
+    });
+    map.addControl(control,position);
+    return control;
+};
+/**
+ * 加载图例控件
+ * @method addLegendControl
+ * @memberOf Control
+ * @example
+ * let layersName=[{
+ *       'layername':'countyPoint',
+ *       'otherName':'乡镇点'
+ *  },{
+ *      'layername':'road',
+ *      'otherName':'道路'
+ *  },{
+ *      'layername':'town_polygon',
+ *      'otherName':'乡镇区域'
+ *  },{
+ *      'layername':'hospital',
+ *      'otherName':'医院'
+ *  },{
+ *      'layername':'estate',
+ *      'otherName':'居民'
+ *  }];
+ * jmap.JYControl.addLegendControl(map,layersName,'bottom-right');
+ * @param map=-- {object} 地图对象，不可为空
+ * @param layers=-- {array} 图例内容对象数组，不可为空
+ * @param position='top-left' {string} 控件位置,'top-left','top-right','bottom-left','bottom-right'之一可为空，默认为‘top-left’
+ * @return legendControl {object} 地图图例控件对象
+ */
+let addLegendControl=function (map,layers,position) {
+    position=position?position:'top-left';
+    let control=new LegendControl({
+        layers
+    });
+    map.addControl(control,position);
+    return control;
+};
+/**
+ * 加载专题图图例控件
+ * @method addThemeLegendControl
+ * @memberOf Control
+ * @example
+ * let legendList=[
+ * {
+ *     'color':'#FDE2CA',
+ *     'otherName':'0~0.01',
+ * }, {
+ * color':'#face9c',
+ * 'otherName':'0.01~0.015',
+ * }, {
+ *     'color':'#f09c42',
+ *     'otherName':'0.015~0.02',
+ * }, {
+ *     'color':'#d0770b',
+ *     'otherName':'0.02~0.03',
+ * }, {
+ *     'color':'#945305',
+ *     'otherName':'>0.03',
+ * }
+ * ];
+ * jmap.JYControl.addThemeLegendControl(map,legendList,'专题图','polygon','bottom-right');
+ * @param map=-- {object} 地图对象，不可为空
+ * @param legendList=-- {array} 地图图例内容对象数组，不可为空
+ * @param name=图例 {string} 专题图图例名称，可为空，默认为‘图例’
+ * @param type=polygon {string} 专题图图例类型，分为‘polygon’和‘circle’两类，默认为‘polygon’,可为空
+ * @param position='top-left' {string} 控件位置,'top-left','top-right','bottom-left','bottom-right'之一可为空，默认为‘top-left’
+ * @return themeLegendControl {object} 专题地图图例控件对象
+ */
+let addThemeLegendControl=function (map,legendList,name,type,position) {
+    position=position?position:'top-left';
+    name=name?name:'图例';
+    type=type?type:'polygon';
+    let control=new themeLegendControl({
+        _legendList: legendList,
+        _legendName:name,
+        _type:type
+    });
+    map.addControl(control,position);
+    return control;
+};
+let addMiniMapControl=function(map,center,zoom,position,style){
+    position=position?position:'top-right';
+    map.addControl(new mapboxgl.Minimap({
+        style:style,
+        center: center,
+        zoom: zoom,
+        zoomLevels: []
+    }), position);
+};
+module.exports = {
+    addNavigationControl,
+    addScaleControl,
+    addFullscreenControl,
+    addGeolacateControl,
+    addDrawControl,
+    addCompareControl,
+    addSearchControl,
+    addAttributionControl,
+    addLayerControl,
+    addLayerControlEx,
+    addLegendControl,
+    addThemeLegendControl,
+    addMiniMapControl
+}
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.6</a> on Fri Sep 25 2020 11:53:40 GMT+0800 (GMT+08:00) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+<script src="scripts/collapse.js" defer></script>
+
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+.prettyprint{
+    box-shadow: 0 0.5em 0.5em #d3d3d3;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+.prettyprint code{
+    background-color: #4271ae;
+}
+h4.name{
+    color: #000;
+    background-color: #a1b1ff;
+}
+.signature {
+    color: #4271ae;
+}
+.type-signature,
+.type-signature:last-child{
+    color: #CA79CA;
+}

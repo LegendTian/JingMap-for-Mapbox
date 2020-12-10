@@ -1,0 +1,1468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>Visualization - Docdash</title>
+    
+    <meta name="description" content="A clean, responsive documentation template theme for JSDoc 3." />
+    
+        <meta name="keywords" content="jsdoc, docdash" />
+        <meta name="keyword" content="jsdoc, docdash" />
+    
+    
+    
+    <meta property="og:title" content="Docdash"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://cloud.githubusercontent.com/assets/447956/13398144/4dde7f36-defd-11e5-8909-1a9013302cb9.png"/>
+    <meta property="og:site_name" content="Docdash"/>
+    <meta property="og:url" content="http://clenemt.github.io/docdash/"/>
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://github.com/clenemt/docdash" target="_blank" class="menu-item" id="repository" >Github repo</a></h2><h3>Namespaces</h3><ul><li><a href="Analysis.html">Analysis</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Analysis.html#.booleanEqual">booleanEqual</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.bufferAnalysis">bufferAnalysis</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.distancePointOnLine">distancePointOnLine</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.intersectPolygon">intersectPolygon</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.isolatedPoint">isolatedPoint</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.measureArea">measureArea</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.measureCoordinates">measureCoordinates</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.measureDistance">measureDistance</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.pointAlongLine">pointAlongLine</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.pointsWithinPolygon">pointsWithinPolygon</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#getHullPolygon">getHullPolygon</a></li></ul></li><li><a href="Control.html">Control</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Control.html#.addAttributionControl">addAttributionControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addCompareControl">addCompareControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addDrawControl">addDrawControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addFullscreenControl">addFullscreenControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addGeolacateControl">addGeolacateControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addLayerControl">addLayerControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addLayerControlEx">addLayerControlEx</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addLegendControl">addLegendControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addNavigationControl">addNavigationControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addScaleControl">addScaleControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addSearchControl">addSearchControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addThemeLegendControl">addThemeLegendControl</a></li></ul></li><li><a href="Layer.html">Layer</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Layer.html#.add3DPolygonLayer">add3DPolygonLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addbgLayer">addbgLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addDemLayer">addDemLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addGeojsonLayer">addGeojsonLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addHeatmapLayer">addHeatmapLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addLineLayer">addLineLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addMediaLayer">addMediaLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addPointLayer">addPointLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addPolygonLayer">addPolygonLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addRasterLayer">addRasterLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addSymbolLayer">addSymbolLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addTextLayer">addTextLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createLineLayer">createLineLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createMarkerLayer">createMarkerLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createMarkerPopup">createMarkerPopup</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createMinRectangle">createMinRectangle</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createPointLayer">createPointLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createPolygonLayer">createPolygonLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createPopup">createPopup</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createRectangleLayer">createRectangleLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.getLayer">getLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.moveLayer">moveLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.removeLayer">removeLayer</a></li></ul></li><li><a href="Map.html">Map</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Map.html#.addMapboxMap">addMapboxMap</a></li><li data-type='method' style='display: none;'><a href="Map.html#.borderToMask">borderToMask</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getCenterByCode">getCenterByCode</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapBounds">getMapBounds</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapCenter">getMapCenter</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapMaxZoom">getMapMaxZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapMinZoom">getMapMinZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapZoom">getMapZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getPointsByCode">getPointsByCode</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getPolygonByCode">getPolygonByCode</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapFlyTo">mapFlyTo</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapJumpTo">mapJumpTo</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapStop">mapStop</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapZoomIn">mapZoomIn</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapZoomOut">mapZoomOut</a></li><li data-type='method' style='display: none;'><a href="Map.html#.removeMap">removeMap</a></li><li data-type='method' style='display: none;'><a href="Map.html#.setMapCenter">setMapCenter</a></li><li data-type='method' style='display: none;'><a href="Map.html#.setMapMaxZoom">setMapMaxZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.setMapMinZoom">setMapMinZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.setMapZoom">setMapZoom</a></li></ul></li><li><a href="Source.html">Source</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Source.html#.addSource">addSource</a></li><li data-type='method' style='display: none;'><a href="Source.html#.removeSource">removeSource</a></li></ul></li><li><a href="Style.html">Style</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Style.html#.getLayerFilter">getLayerFilter</a></li><li data-type='method' style='display: none;'><a href="Style.html#.getLayerLayout">getLayerLayout</a></li><li data-type='method' style='display: none;'><a href="Style.html#.getLayerPaint">getLayerPaint</a></li><li data-type='method' style='display: none;'><a href="Style.html#.getMapStyle">getMapStyle</a></li><li data-type='method' style='display: none;'><a href="Style.html#.setLayerFilter">setLayerFilter</a></li><li data-type='method' style='display: none;'><a href="Style.html#.setLayerLayout">setLayerLayout</a></li><li data-type='method' style='display: none;'><a href="Style.html#.setLayerPaint">setLayerPaint</a></li><li data-type='method' style='display: none;'><a href="Style.html#.setMapStyle">setMapStyle</a></li></ul></li><li><a href="Visualization.html">Visualization</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Visualization.html#.add3DModel">add3DModel</a></li><li data-type='method' style='display: none;'><a href="Visualization.html#.animateLine">animateLine</a></li><li data-type='method' style='display: none;'><a href="Visualization.html#.animateMarker">animateMarker</a></li><li data-type='method' style='display: none;'><a href="Visualization.html#.animateMarkerByLine">animateMarkerByLine</a></li></ul></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">Visualization</h1>
+    
+
+    
+
+
+
+
+<section>
+
+<header>
+    
+        <h2>
+        Visualization
+        </h2>
+        
+    
+</header>
+
+<article>
+    
+        <div class="container-overview">
+        
+            
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="JYVisualization.js.html">JYVisualization.js</a>, <a href="JYVisualization.js.html#line1">line 1</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+            
+
+            
+        
+        </div>
+    
+
+    
+
+    
+
+    
+    
+    
+
+     
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        
+            
+
+    
+
+    <h4 class="name" id=".add3DModel"><span class="type-signature">(static) </span>add3DModel<span class="signature">(map, id, position, rotate, scale, url)</span><span class="type-signature"> &rarr; {array}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="JYVisualization.js.html">JYVisualization.js</a>, <a href="JYVisualization.js.html#line314">line 314</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>添加Three.JS三维模型</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>let lines= [[112.7, 35.4992], [112.8, 35.5992], [112.95, 35.36], [112.82, 35.299],[112.72, 35.49]];jmap.JYvisualization.animateMarker(map,lines,100,'marker');</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>map</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>--</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>地图对象,不可为空</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>id</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>--</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>模型图层ID,不可为空</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>position</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">array</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>--</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>模型位置坐标数组，不可为空</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>rotate</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">array</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>--</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>模型方向弧度[x,y,z],弧度范围为{-2π~2π}，可为空，默认为[0,0,0]</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>scale</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>1</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>模型缩放比例，可为空，默认为1</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>url</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>--</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>gltf格式模型存放地址,不可为空</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>marker  marker对象数组</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">array</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".animateLine"><span class="type-signature">(static) </span>animateLine<span class="signature">(map, lines, id, speed, color, width, opacity)</span><span class="type-signature"> &rarr; {object}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="JYVisualization.js.html">JYVisualization.js</a>, <a href="JYVisualization.js.html#line210">line 210</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>绘制动态线</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>let lines = [[112.7, 35.4992], [112.8, 35.5992], [112.95, 35.36], [112.82, 35.299], [112.72, 35.49]];jmap.JYvisualization.animateLine(map,'animateLine',lines,100,'#ed6498',5,0.8);</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>map</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>--</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>地图对象,不可为空</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>lines</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">array</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>--</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>运动轨迹线坐标数组，不可为空</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>id</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>--</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>图层ID，不可为空</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>speed</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>--</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>marker移动速度，1~10000；数值越大，速度越快</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>color</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>'#ed6498'</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>填充颜色，可为空，默认为‘#ed6498’</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>width</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>1</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>线宽，可为空，默认为1</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>opacity</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>1</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>透明度，可为空，默认为1</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>returnData  {layer：线图层对象，timer:时间控制ID}</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">object</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".animateMarker"><span class="type-signature">(static) </span>animateMarker<span class="signature">(map, lines, speed, className)</span><span class="type-signature"> &rarr; {array}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="JYVisualization.js.html">JYVisualization.js</a>, <a href="JYVisualization.js.html#line5">line 5</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>沿线移动Marker</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>let lines= [[112.7, 35.4992], [112.8, 35.5992], [112.95, 35.36], [112.82, 35.299],[112.72, 35.49]];jmap.JYvisualization.animateMarker(map,lines,100,'marker');</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>map</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>--</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>地图对象,不可为空</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>lines</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">array</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>--</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>运动轨迹线坐标数组，不可为空</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>speed</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>--</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>marker移动速度，1~10000；数值越大，速度越快</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>className</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">array</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>--</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>marker的CSS类名，可为空，为空默认样式显示；不为空需前端定义样式</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>marker  marker对象数组</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">array</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".animateMarkerByLine"><span class="type-signature">(static) </span>animateMarkerByLine<span class="signature">(map, lines, marker, speed, popup, rotate, fly, zoom)</span><span class="type-signature"> &rarr; {object}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="JYVisualization.js.html">JYVisualization.js</a>, <a href="JYVisualization.js.html#line104">line 104</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>沿线移动Marker2</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>let lines = [[112.7, 35.4992], [112.8, 35.5992], [112.95, 35.36], [112.82, 35.299], [112.72, 35.49]];let popup = new mapboxgl.Popup({    offset: [-10, -10]})let marker = new mapboxgl.Marker(el);returnData = jmap.JYvisualization.animateMarkerByLine(map, lines, marker, 100, popup);</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>map</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>--</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>地图对象,不可为空</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>lines</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">array</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>--</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>运动轨迹线坐标数组，不可为空</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>marker</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>--</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>marker对象，不可为空</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>speed</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>--</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>marker移动速度，1~10000；数值越大，速度越快</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>popup</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">array</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>--</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>移动marker弹窗，可为空，默认为不添加</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>rotate</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>--</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>marker是否旋转，可为空，默认为不旋转</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>fly</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>--</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>地图中心是否移动，可为空，默认为不移动</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>zoom</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>--</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>地图缩放级别，可为空，默认为地图初始化级别</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>returnData  {layer：marker对象，timer:时间控制ID}</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">object</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.6</a> on Fri Sep 25 2020 11:53:40 GMT+0800 (GMT+08:00) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+<script src="scripts/collapse.js" defer></script>
+
+
+</body>
+</html>

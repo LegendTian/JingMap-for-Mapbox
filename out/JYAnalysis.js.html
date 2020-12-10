@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>JYAnalysis.js - Docdash</title>
+    
+    <meta name="description" content="A clean, responsive documentation template theme for JSDoc 3." />
+    
+        <meta name="keywords" content="jsdoc, docdash" />
+        <meta name="keyword" content="jsdoc, docdash" />
+    
+    
+    
+    <meta property="og:title" content="Docdash"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://cloud.githubusercontent.com/assets/447956/13398144/4dde7f36-defd-11e5-8909-1a9013302cb9.png"/>
+    <meta property="og:site_name" content="Docdash"/>
+    <meta property="og:url" content="http://clenemt.github.io/docdash/"/>
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://github.com/clenemt/docdash" target="_blank" class="menu-item" id="repository" >Github repo</a></h2><h3>Namespaces</h3><ul><li><a href="Analysis.html">Analysis</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Analysis.html#.booleanEqual">booleanEqual</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.bufferAnalysis">bufferAnalysis</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.distancePointOnLine">distancePointOnLine</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.intersectPolygon">intersectPolygon</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.isolatedPoint">isolatedPoint</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.measureArea">measureArea</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.measureCoordinates">measureCoordinates</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.measureDistance">measureDistance</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.pointAlongLine">pointAlongLine</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.pointsWithinPolygon">pointsWithinPolygon</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#getHullPolygon">getHullPolygon</a></li></ul></li><li><a href="Control.html">Control</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Control.html#.addAttributionControl">addAttributionControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addCompareControl">addCompareControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addDrawControl">addDrawControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addFullscreenControl">addFullscreenControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addGeolacateControl">addGeolacateControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addLayerControl">addLayerControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addLayerControlEx">addLayerControlEx</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addLegendControl">addLegendControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addNavigationControl">addNavigationControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addScaleControl">addScaleControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addSearchControl">addSearchControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addThemeLegendControl">addThemeLegendControl</a></li></ul></li><li><a href="Layer.html">Layer</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Layer.html#.add3DPolygonLayer">add3DPolygonLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addbgLayer">addbgLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addDemLayer">addDemLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addGeojsonLayer">addGeojsonLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addHeatmapLayer">addHeatmapLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addLineLayer">addLineLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addMediaLayer">addMediaLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addPointLayer">addPointLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addPolygonLayer">addPolygonLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addRasterLayer">addRasterLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addSymbolLayer">addSymbolLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addTextLayer">addTextLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createLineLayer">createLineLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createMarkerLayer">createMarkerLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createMarkerPopup">createMarkerPopup</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createMinRectangle">createMinRectangle</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createPointLayer">createPointLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createPolygonLayer">createPolygonLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createPopup">createPopup</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createRectangleLayer">createRectangleLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.getLayer">getLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.moveLayer">moveLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.removeLayer">removeLayer</a></li></ul></li><li><a href="Map.html">Map</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Map.html#.addMapboxMap">addMapboxMap</a></li><li data-type='method' style='display: none;'><a href="Map.html#.borderToMask">borderToMask</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getCenterByCode">getCenterByCode</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapBounds">getMapBounds</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapCenter">getMapCenter</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapMaxZoom">getMapMaxZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapMinZoom">getMapMinZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapZoom">getMapZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getPointsByCode">getPointsByCode</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getPolygonByCode">getPolygonByCode</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapFlyTo">mapFlyTo</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapJumpTo">mapJumpTo</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapStop">mapStop</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapZoomIn">mapZoomIn</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapZoomOut">mapZoomOut</a></li><li data-type='method' style='display: none;'><a href="Map.html#.removeMap">removeMap</a></li><li data-type='method' style='display: none;'><a href="Map.html#.setMapCenter">setMapCenter</a></li><li data-type='method' style='display: none;'><a href="Map.html#.setMapMaxZoom">setMapMaxZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.setMapMinZoom">setMapMinZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.setMapZoom">setMapZoom</a></li></ul></li><li><a href="Source.html">Source</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Source.html#.addSource">addSource</a></li><li data-type='method' style='display: none;'><a href="Source.html#.removeSource">removeSource</a></li></ul></li><li><a href="Style.html">Style</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Style.html#.getLayerFilter">getLayerFilter</a></li><li data-type='method' style='display: none;'><a href="Style.html#.getLayerLayout">getLayerLayout</a></li><li data-type='method' style='display: none;'><a href="Style.html#.getLayerPaint">getLayerPaint</a></li><li data-type='method' style='display: none;'><a href="Style.html#.getMapStyle">getMapStyle</a></li><li data-type='method' style='display: none;'><a href="Style.html#.setLayerFilter">setLayerFilter</a></li><li data-type='method' style='display: none;'><a href="Style.html#.setLayerLayout">setLayerLayout</a></li><li data-type='method' style='display: none;'><a href="Style.html#.setLayerPaint">setLayerPaint</a></li><li data-type='method' style='display: none;'><a href="Style.html#.setMapStyle">setMapStyle</a></li></ul></li><li><a href="Visualization.html">Visualization</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Visualization.html#.add3DModel">add3DModel</a></li><li data-type='method' style='display: none;'><a href="Visualization.html#.animateLine">animateLine</a></li><li data-type='method' style='display: none;'><a href="Visualization.html#.animateMarker">animateMarker</a></li><li data-type='method' style='display: none;'><a href="Visualization.html#.animateMarkerByLine">animateMarkerByLine</a></li></ul></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">JYAnalysis.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/** @namespace  Analysis*/
+
+// import * as turf from '@turf/turf';
+// import mapboxgl from "../../libs/mapbox/mapbox-gl";
+
+const turf=require("@turf/turf");
+const mapboxgl=require("../../libs/mapbox/mapbox-gl");
+const MapboxDraw =require("@mapbox/mapbox-gl-draw");
+/**
+ * 距离测量
+ * @method measureDistance
+ * @memberOf Analysis
+ * @example jmap.JYAnalysis.measureDistance(map,'miles');
+ * @param map=-- {object}地图对象
+ * @param units='kilometers' {string} 测量单位，可以为'degrees', 'radians', 'miles', or 'kilometers'之一，默认'kilometers'
+ * @param position='top-left' {string} 绘制线控件位置,'top-left','top-right','bottom-left','bottom-right'之一可为空，默认为‘top-left’
+ * @return distance {number} 测量距离结果
+ */
+let measureDistance=function (map,units,position) {
+    units=units?units:'kilometers';
+    position=position?position:'top-left';
+    let distance=null;
+    let unitsName=null;
+    let popup=null;
+    switch (units){
+        case 'kilometers':unitsName='公里';
+            break;
+        case 'degrees':unitsName='度';
+            break;
+        case 'radians':unitsName='弧度';
+            break;
+        case 'miles':unitsName='英里';
+            break;
+    }
+    let draw = new MapboxDraw({
+        displayControlsDefault: false,
+        controls: {
+            line_string: true,
+            trash: true
+        }
+    });
+    map.addControl(draw,position);
+    function measureDistance(e) {
+        if(popup) {
+            popup.remove();
+        }
+        distance=multiDistance(e.features[0].geometry.coordinates,units);
+        let len=e.features[0].geometry.coordinates.length;
+        popup=new mapboxgl.Popup({closeOnClick:false})
+            .setLngLat(e.features[0].geometry.coordinates[len-1])
+            .setText(distance.toFixed(3)+':'+unitsName)
+            .addTo(map);
+    }
+
+    function multiDistance(points,units){
+        let totalDis=null;
+        for(let i=0;i&lt;points.length-1;i++){
+            totalDis=totalDis+turf.distance(turf.point(points[i]),turf.point(points[i+1]),{units:units});
+        }
+        return totalDis;
+    }
+    function drawdelete() {
+        if(popup)
+            popup.remove();
+    }
+    map.on('draw.create', measureDistance);
+    map.on('draw.update', measureDistance);
+    map.on('draw.delete', drawdelete);
+    return distance;
+};
+/**
+ * 面积测量
+ * @method measureArea
+ * @memberOf Analysis
+ * @example jmap.JYAnalysis.measureArea(map,null);
+ * @param map=-- {object}地图对象
+ * @param position='top-left' {string} 绘制线控件位置,'top-left','top-right','bottom-left','bottom-right'之一可为空，默认为‘top-left’
+ * @return are {number} 面积距离结果，单位平方米
+ */
+let measureArea=function (map,position) {
+    position=position?position:'top-left';
+    let area=null;
+    let unitsName='平方米';
+    let popup=null;
+    let draw = new MapboxDraw({
+        displayControlsDefault: false,
+        controls: {
+            polygon: true,
+            trash: true
+        }
+    });
+    map.addControl(draw,position);
+    function measureAreas(e) {
+        if(popup) {
+            popup.remove();
+        }
+        let polygon=turf.polygon(e.features[0].geometry.coordinates);
+        area=turf.area(polygon);
+        popup=new mapboxgl.Popup({closeOnClick:false})
+            .setLngLat(turf.centroid(polygon).geometry.coordinates)
+            .setText(area.toFixed(3)+':'+unitsName)
+            .addTo(map);
+    }
+    function drawdelete() {
+        if(popup)
+            popup.remove();
+    }
+    map.on('draw.create', measureAreas);
+    map.on('draw.update', measureAreas);
+    map.on('draw.delete', drawdelete);
+    return area;
+};
+/**
+ * 缓冲区分析
+ * @method bufferAnalysis
+ * @memberOf Analysis
+ * @example
+ * let points=[112.99,35.33]
+ * ;
+ * let linePoints=[
+ * [112.854425, 35.314139],
+ * [112.864425, 35.454139],
+ * [112.814425, 35.354139],
+ * ]
+ * let polygonPoints=[[
+ * [112.754425, 35.314139],
+ * [112.764425, 35.454139],
+ * [112.614425, 35.354139],
+ * [112.754425, 35.314139]]
+ * ];
+ * //根据坐标点创建点图层
+ * let myPoints=jmap.JYLayer.createPointLayer(map,'point',[points],10,'#3fe2e2',1);
+ * //创建点对象的缓冲区
+ * jmap.JYAnalysis.bufferAnalysis(map,'pointBuffer',points,'point',5,'miles','#ff4cd1',0.6)
+ * //根据坐标点创建线图层
+ * jmap.JYLayer.createLineLayer(map,'line',linePoints,'#3fe2e2',1,4);
+ * //创建线对象的缓冲区
+ * jmap.JYAnalysis.bufferAnalysis(map,'lineBuffer',linePoints,'line',2,'miles','#ff4cd1',0.6)
+ * //根据坐标点创建面图层
+ * let myPolygon=jmap.JYLayer.createPolygonLayer(map,'polygon',polygonPoints,'#3fe2e2',0.8,'#000');
+ * //创建面对象缓冲区
+ * jmap.JYAnalysis.bufferAnalysis(map,'polygonBuffer',polygonPoints,'polygon',2,'miles','#ff4cd1',0.6)
+ * @param map=-- {object}地图对象
+ * @param id=-- {string} 图层ID，不可为空
+ * @param coordinates=-- {array} 点坐标数组，不可为空
+ * @param type=-- {string} 坐标几何类型，必须为{"point","line","polygon"}之一，不可为空
+ * @param radius=-- {number} 缓冲半径，可为空，默认为1个单位距离
+ * @param units='kilometers' {string} 距离单位，可以为'degrees', 'radians', 'miles', or 'kilometers'之一，默认'kilometers'
+ * @param color='#ff4cd1' {string} 填充颜色，可为空，默认为‘#ff4cd1’
+ * @param opacity=1 {number} 透明度，可为空，默认为1
+ * @return are {number} 面积距离结果，单位平方米
+ */
+let bufferAnalysis=function (map,id,coordinates,type,radius,units,color,opacity) {
+    units=units?units:'kilometers';
+    color=color?color:'#ff4cd1';
+    opacity=opacity?opacity:1;
+    radius=radius?radius:1;
+    let buffer=null;
+    let geometry=null;
+    if(type==='point'){
+        geometry=turf.point(coordinates);
+    }else if(type==='line'){
+        geometry=turf.lineString(coordinates);
+    }else if(type==='polygon'){
+        geometry=turf.polygon(coordinates);
+    }
+    buffer=turf.buffer(geometry,radius,{units:units});
+    map.addLayer({
+        id:id,
+        'type':'fill',
+        "source":{
+            type:'geojson',
+            data:buffer
+        },
+        'paint':{
+            'fill-color':color,
+            'fill-opacity':opacity
+        }
+    });
+
+};
+/**
+ * 点定里程
+ * @method distancePointOnLine
+ * @memberOf Analysis
+ * @example
+ * let lines = [[112.7, 35.4992], [112.8, 35.5992], [112.95, 35.36], [112.82, 35.299], [112.72, 35.49]];
+ * let point=[112.77, 35.3945];
+ * //计算点在线上距离
+ * let dis=jmap.JYAnalysis.distancePointOnLine(point,lines);
+ * @param point=-- {array} 点坐标，不可为空
+ * @param lines=-- {array} 线坐标数组，不可为空
+ * @return length {number} 线上点距离结果，单位公里
+ */
+let distancePointOnLine=function (point,lines) {
+    let pt = turf.point(point);
+    let line=null;
+    let isPointOnLine = null;
+    let temp=[];
+    temp.push(lines[0]);
+    for(let i=0;i&lt;lines.length-1;i++){
+        line=turf.lineString([lines[i],lines[i+1]]);
+        isPointOnLine = turf.booleanPointOnLine(pt,line);
+        if(isPointOnLine){
+            temp.push(point);
+            i=lines.length;
+        }else{
+            temp.push(lines[i+1]);
+            if(i==lines.length-2){
+                console.log("当前点不在线上！");
+            }
+        }
+    }
+    let tempLine = turf.lineString(temp);
+    let length = turf.length(tempLine, {units: 'miles'});
+    return length;
+};
+/**
+ * 里程定点
+ * @method pointAlongLine
+ * @memberOf Analysis
+ * @example
+ * let lines = [[112.7, 35.4992], [112.8, 35.5992], [112.95, 35.36], [112.82, 35.299], [112.72, 35.49]];
+ * //距离线上起点40公里的点
+ * let dis=40;
+ * let point=jmap.JYAnalysis.pointAlongLine(dis,lines);
+ * @param distance=-- {number} 距离，单位公里,不可为空
+ * @param lines=-- {array} 线坐标数组，不可为空
+ * @return point {abject} 距离起点指定距离的点对象
+ */
+let pointAlongLine=function (distance,lines) {
+    let line = turf.lineString(lines);
+    let along = turf.along(line, distance, {units: 'miles'});
+    return along;
+};
+/**
+ * 外包多边形分析计算
+ * @method getHullPolygon
+ * @memberOf Analysis
+ * @instance
+ * @example
+ *   var d= [
+ [110.8,34.9],
+ [112.1,37.1],
+ [113.3,38.5],
+ [112.1,38.7],
+ [114.4,34.2]
+ ];
+ //获取最小外接矩形
+ var rec=ltmap.getHullPolygon(d);
+ //显示矩形
+ L.geoJSON(rec).addTo(map);
+
+ * @param points  {array}  点坐标集合
+ * @param concaval {int} 1-瘦多边形 Infinity-凸包
+ * @return polygon {object} 凸包多边形的geojson矢量对象
+ */
+let getHullPolygon=function(points,concaval){
+    let geometry ={ "type": "FeatureCollection",
+        "features": [
+        ]
+    };
+    points.forEach(function(v,i){
+        let pg={ "type": "Feature",
+            "geometry": {"type": "Point", "coordinates": v},
+            "properties": {"pid": i}
+        };
+        geometry.features.push(pg);
+    });
+    return turf.convex(geometry,{concavity:concaval?concaval:Infinity});
+};
+/**
+ * 坐标正算
+ * @method measureCoordinates
+ * @memberOf Analysis
+ * @example
+ * var start= {
+        "startPoint":[113.090974,35.916336],  //起始坐标
+        "azimuth":30,  //方位角，单位为度
+        "dip":0,  //倾角，单位为度
+        "depth":4  //深度，单位为米
+    };
+ * var end = jmap.JYAnalysis.measureCoordinates(start);
+ * @param d=-- {object} 起点对象，不可为空
+ * @return point {array} 终点坐标
+ */
+let measureCoordinates=function(d){
+    let azimuth = d.azimuth;
+    let dip = d.dip;
+    let depth = d.depth;
+    let degree = km2Degree(depth/1000);
+    let dis = degree * Math.cos(dip * Math.PI / 180);
+    let x = d.startPoint[0] + dis * Math.cos(azimuth * Math.PI / 180);
+    let y = d.startPoint[1] + dis * Math.sin(azimuth * Math.PI / 180);
+    return [x,y];
+}
+
+/**
+ * 两多边形相交
+ * @method intersectPolygon
+ * @memberOf Analysis
+ * @example
+ * var polygon = [[[113.09,35.9], [113.1,35.9], [113.1,35.91], [113.09,35.92], [113.09,35.9]]];
+ * var rectangle = [[[113.095,35.91], [113.098,35.91], [113.098,35.92], [113.095,35.92], [113.095,35.91]]];
+ * var res = jmap.JYAnalysis.intersectPolygon(polygon, rectangle)
+ * //console.log(res)
+ * //结果展示
+ * jmap.JYSource.addSource(map,'geojson','source',res);
+ * jmap.JYLayer.addGeojsonLayer(map,'res','source','polygon',1,"#000","#16d1dc",1,2);
+ * @param points1=-- {array} 闭合多边形点集，不可为空
+ * @param points2=-- {array} 闭合多边形点集，不可为空
+ * @return result {object} 相交多边形
+ */
+let intersectPolygon=function(points1,points2){
+    let poly1=turf.polygon(points1);
+    let poly2=turf.polygon(points2);
+    let result=turf.intersect(poly1,poly2);
+    return result;
+}
+/**
+ * 点面相交
+ * @method pointsWithinPolygon
+ * @memberOf Analysis
+ * @example
+ * @param points  {geojson}  点Geojson格式
+ * @param poly {array} 面坐标
+ * @return points {featureCollection} 相交点集
+ */
+let pointsWithinPolygon=function(points,poly){
+    let pnts = [];
+    points.forEach(function(v,i){
+        var point = turf.point(v.geometry.coordinates, v.properties);
+        pnts.push(point)
+    });
+    var collection = turf.featureCollection(pnts);
+    var searchWithin = turf.polygon(poly);
+    var result = turf.pointsWithinPolygon(collection, searchWithin);
+    return result;
+}
+/**
+ * 点是否在线上
+ * @method isolatedPoint
+ * @memberOf Analysis
+ * @example
+ * let line = [[113.0897, 35.91667], [113.0901,35.91666], [113.0908,35.91665],[113.0908, 35.91645], [113.09125, 35.91614], [113.0901, 35.91616]];
+ * let point = [113.0901,35.91666]
+ * let res = jmap.JYAnalysis.isolatedPoint(point,line);
+ * @param point {array} 点坐标
+ * @param line {array} 线坐标
+ * @return res {boolean} 点是否在线上
+ */
+let isolatedPoint=function(point,line) {
+    let pt = turf.point(point);
+    let l = turf.lineString(line);
+    let isPointOnLine = turf.booleanPointOnLine(pt, l);
+    return isPointOnLine;
+}
+
+/**
+ * 点或线是否重合
+ * @method booleanEqual
+ * @memberOf Analysis
+ * @example
+ * let point1 = [113.0897, 35.91667];
+ * let point2 = [113.0901,35.91666]
+ * let res = jmap.JYAnalysis.booleanEqual('point',point1,point2);
+ * @param type {string} 几何对象类型，可选：point，line，polygon
+ * @param feature1 {array} 几何对象坐标
+ * @param feature2 {array} 几何对象坐标
+ * @return resule {boolean} 两个几何对象是否重合 
+ */
+let booleanEqual=function(type,feature1,feature2) {
+    let resule=false;
+    if(type=="point"){
+        let pt1 = turf.point(feature1);
+        let pt2 = turf.point(feature2);
+        resule=turf.booleanEqual(pt1, pt2);
+    }else if(type=="line"){
+        let pt1 = turf.lineString(feature1);
+        let pt2 = turf.lineString(feature2);
+        resule=turf.booleanEqual(pt1, pt2);
+    }else if(type=="polygon"){
+        let pt1 = turf.polygon(feature1);
+        let pt2 = turf.polygon(feature2);
+        resule=turf.booleanEqual(pt1, pt2);
+    }
+    return resule;
+}
+
+
+//内部函数
+//km转度
+let km2Degree =function (l) {
+    var earthRadius = 6371.393;//地球半径:km
+    var degree = (180 / earthRadius / Math.PI) * l;
+    return degree;
+}
+module.exports = {
+    measureDistance,
+    measureArea,
+    bufferAnalysis,
+    distancePointOnLine,
+    pointAlongLine,
+    getHullPolygon,
+    measureCoordinates,
+    intersectPolygon,
+    isolatedPoint,
+    booleanEqual,
+    pointsWithinPolygon
+}
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.6</a> on Fri Sep 25 2020 11:53:40 GMT+0800 (GMT+08:00) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+<script src="scripts/collapse.js" defer></script>
+
+
+</body>
+</html>

@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>JYMap.js - Docdash</title>
+    
+    <meta name="description" content="A clean, responsive documentation template theme for JSDoc 3." />
+    
+        <meta name="keywords" content="jsdoc, docdash" />
+        <meta name="keyword" content="jsdoc, docdash" />
+    
+    
+    
+    <meta property="og:title" content="Docdash"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://cloud.githubusercontent.com/assets/447956/13398144/4dde7f36-defd-11e5-8909-1a9013302cb9.png"/>
+    <meta property="og:site_name" content="Docdash"/>
+    <meta property="og:url" content="http://clenemt.github.io/docdash/"/>
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://github.com/clenemt/docdash" target="_blank" class="menu-item" id="repository" >Github repo</a></h2><h3>Namespaces</h3><ul><li><a href="Analysis.html">Analysis</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Analysis.html#.booleanEqual">booleanEqual</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.bufferAnalysis">bufferAnalysis</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.distancePointOnLine">distancePointOnLine</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.intersectPolygon">intersectPolygon</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.isolatedPoint">isolatedPoint</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.measureArea">measureArea</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.measureCoordinates">measureCoordinates</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.measureDistance">measureDistance</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.pointAlongLine">pointAlongLine</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#.pointsWithinPolygon">pointsWithinPolygon</a></li><li data-type='method' style='display: none;'><a href="Analysis.html#getHullPolygon">getHullPolygon</a></li></ul></li><li><a href="Control.html">Control</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Control.html#.addAttributionControl">addAttributionControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addCompareControl">addCompareControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addDrawControl">addDrawControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addFullscreenControl">addFullscreenControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addGeolacateControl">addGeolacateControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addLayerControl">addLayerControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addLayerControlEx">addLayerControlEx</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addLegendControl">addLegendControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addNavigationControl">addNavigationControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addScaleControl">addScaleControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addSearchControl">addSearchControl</a></li><li data-type='method' style='display: none;'><a href="Control.html#.addThemeLegendControl">addThemeLegendControl</a></li></ul></li><li><a href="Layer.html">Layer</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Layer.html#.add3DPolygonLayer">add3DPolygonLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addbgLayer">addbgLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addDemLayer">addDemLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addGeojsonLayer">addGeojsonLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addHeatmapLayer">addHeatmapLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addLineLayer">addLineLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addMediaLayer">addMediaLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addPointLayer">addPointLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addPolygonLayer">addPolygonLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addRasterLayer">addRasterLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addSymbolLayer">addSymbolLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.addTextLayer">addTextLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createLineLayer">createLineLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createMarkerLayer">createMarkerLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createMarkerPopup">createMarkerPopup</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createMinRectangle">createMinRectangle</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createPointLayer">createPointLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createPolygonLayer">createPolygonLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createPopup">createPopup</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.createRectangleLayer">createRectangleLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.getLayer">getLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.moveLayer">moveLayer</a></li><li data-type='method' style='display: none;'><a href="Layer.html#.removeLayer">removeLayer</a></li></ul></li><li><a href="Map.html">Map</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Map.html#.addMapboxMap">addMapboxMap</a></li><li data-type='method' style='display: none;'><a href="Map.html#.borderToMask">borderToMask</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getCenterByCode">getCenterByCode</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapBounds">getMapBounds</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapCenter">getMapCenter</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapMaxZoom">getMapMaxZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapMinZoom">getMapMinZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getMapZoom">getMapZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getPointsByCode">getPointsByCode</a></li><li data-type='method' style='display: none;'><a href="Map.html#.getPolygonByCode">getPolygonByCode</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapFlyTo">mapFlyTo</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapJumpTo">mapJumpTo</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapStop">mapStop</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapZoomIn">mapZoomIn</a></li><li data-type='method' style='display: none;'><a href="Map.html#.mapZoomOut">mapZoomOut</a></li><li data-type='method' style='display: none;'><a href="Map.html#.removeMap">removeMap</a></li><li data-type='method' style='display: none;'><a href="Map.html#.setMapCenter">setMapCenter</a></li><li data-type='method' style='display: none;'><a href="Map.html#.setMapMaxZoom">setMapMaxZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.setMapMinZoom">setMapMinZoom</a></li><li data-type='method' style='display: none;'><a href="Map.html#.setMapZoom">setMapZoom</a></li></ul></li><li><a href="Source.html">Source</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Source.html#.addSource">addSource</a></li><li data-type='method' style='display: none;'><a href="Source.html#.removeSource">removeSource</a></li></ul></li><li><a href="Style.html">Style</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Style.html#.getLayerFilter">getLayerFilter</a></li><li data-type='method' style='display: none;'><a href="Style.html#.getLayerLayout">getLayerLayout</a></li><li data-type='method' style='display: none;'><a href="Style.html#.getLayerPaint">getLayerPaint</a></li><li data-type='method' style='display: none;'><a href="Style.html#.getMapStyle">getMapStyle</a></li><li data-type='method' style='display: none;'><a href="Style.html#.setLayerFilter">setLayerFilter</a></li><li data-type='method' style='display: none;'><a href="Style.html#.setLayerLayout">setLayerLayout</a></li><li data-type='method' style='display: none;'><a href="Style.html#.setLayerPaint">setLayerPaint</a></li><li data-type='method' style='display: none;'><a href="Style.html#.setMapStyle">setMapStyle</a></li></ul></li><li><a href="Visualization.html">Visualization</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Visualization.html#.add3DModel">add3DModel</a></li><li data-type='method' style='display: none;'><a href="Visualization.html#.animateLine">animateLine</a></li><li data-type='method' style='display: none;'><a href="Visualization.html#.animateMarker">animateMarker</a></li><li data-type='method' style='display: none;'><a href="Visualization.html#.animateMarkerByLine">animateMarkerByLine</a></li></ul></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">JYMap.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/** @namespace  Map*/
+// import mapboxgl from "../../libs/mapbox/mapbox-gl";
+const mapboxgl=require("../../libs/mapbox/mapbox-gl");
+require("../../libs/mapbox/mapbox-gl.css");
+
+//加载地图
+/**
+ * 本地地图初始化
+ * @method addMapboxMap
+ * @memberOf Map
+ * @example
+ * let map=jmap.JYMap.addMapboxMap(zzCounty,'mapContainer',9,[112.8547, 35.4992]);
+ * @param style=-- {object} 地图样式对象，不可为空
+ * @param id=-- {string} 地图容器div的id，不可为空
+ * @param zoom=-- {number} 地图缩放比例，不可为空
+ * @param minzoom=-- {number} 地图最小缩放比例，可为空，默认为0
+ * @param maxzoom=-- {number} 地图最大缩放比例，可为空，默认为22
+ * @param center=-- {array} 地图中心，不可为空
+ * @param pitch=-- {number} 地图的初始俯仰，可为空，默认为0
+ * @return map {object}地图对象
+ */
+let addMapboxMap=function (style,id,zoom,minzoom,maxzoom,center,pitch) {
+    pitch=pitch?pitch:0;
+    minzoom=minzoom?minzoom:0;
+    maxzoom=maxzoom?maxzoom:22;
+    this.map= new mapboxgl.Map({
+        container: id,
+        style: style,
+        zoom: zoom,
+        minZoom:minzoom,
+        maxZoom:maxzoom,
+        center: center,
+        pitch: pitch,
+    });
+    return this.map;
+};
+/**
+ * 获取地图边界
+ * @method getMapBounds
+ * @memberOf Map
+ * @example
+ * let bounds=jmap.JYMap.getMapBounds(map);
+ * @param map=-- {object} 地图对象
+ * @return bounds {object}地图边界对象
+ */
+let getMapBounds=function (map) {
+    return map.getBounds();
+};
+/**
+ * 获取最小缩放级别
+ * @method getMapMinZoom
+ * @memberOf Map
+ * @example
+ * jmap.JYMap.getMapMinZoom(map)
+ * @param map=-- {object} 地图对象
+ * @return minZoom {number}地图最小缩放级别
+ */
+let getMapMinZoom=function (map) {
+    return map.getMinZoom();
+};
+/**
+ * 获取最大缩放级别
+ * @method getMapMaxZoom
+ * @memberOf Map
+ * @example
+ * jmap.JYMap.getMapMaxZoom(map)
+ * @param map=-- {object} 地图对象
+ * @return maxZoom {number}地图最小缩放级别
+ */
+let getMapMaxZoom=function (map) {
+    return map.getMaxZoom();
+};
+/**
+ * 获取当前地图中心
+ * @method getMapCenter
+ * @memberOf Map
+ * @example
+ * jmap.JYMap.getMapCenter(map)
+ * @param map=-- {object} 地图对象
+ * @return center {array} 当前地图中心坐标
+ */
+let getMapCenter=function (map) {
+    return map.getCenter();
+};
+/**
+ * 设置当前地图中心
+ * @method setMapCenter
+ * @memberOf Map
+ * @example
+ * jmap.JYMap.setMapCenter(map,[112.67,35.66])
+ * @param map=-- {object} 地图对象
+ * @param center=-- {array} 设置当前地图中心坐标
+ */
+let setMapCenter=function (map,center) {
+    return map.setCenter(center);
+};
+/**
+ * 设置最小缩放级别
+ * @method setMapMinZoom
+ * @memberOf Map
+ * @example
+ * jmap.JYMap.setMapMinZoom(map,10);
+ * @param map=-- {object} 地图对象
+ * @param minZoom=-- {number} 要设置的最小缩放级别
+ */
+let setMapMinZoom=function (map,minZoom) {
+    map.setMinZoom(minZoom);
+};
+/**
+ * 设置最大缩放级别
+ * @method setMapMaxZoom
+ * @memberOf Map
+ * @example
+ * jmap.JYMap.setMapMaxZoom(map,20);
+ * @param map=-- {object} 地图对象
+ * @param maxZoom=-- {number} 要设置的最大缩放级别
+ */
+let setMapMaxZoom=function (map,maxZoom) {
+    map.setMaxZoom(maxZoom);
+};
+/**
+ * 设置当前缩放级别
+ * @method setMapZoom
+ * @memberOf Map
+ * @example
+ * jmap.JYMap.setMapZoom(map,13);
+ * @param map=-- {object} 地图对象
+ * @param zoom=-- {number} 要设置的当前缩放级别
+ */
+let setMapZoom=function (map,zoom) {
+    map.setZoom(zoom);
+};
+/**
+ * 获取当前缩放级别
+ * @method getMapZoom
+ * @memberOf Map
+ * @example
+ * jmap.JYMap.getMapZoom(map);
+ * @param map=-- {object} 地图对象
+ * @return zoom {number} 地图当前缩放级别
+ */
+let getMapZoom=function (map) {
+   return map.getZoom();
+};
+/**
+ * 当前缩放级别增加一级
+ * @method mapZoomIn
+ * @memberOf Map
+ * @example
+ * jmap.JYMap.mapZoomIn(map);
+ * @param map=-- {object} 地图对象
+ */
+let mapZoomIn=function (map) {
+     map.zoomIn();
+};
+/**
+ * 当前缩放级别降低一级
+ * @method mapZoomOut
+ * @memberOf Map
+ * @example
+ * jmap.JYMap.mapZoomOut(map);
+ * @param map=-- {object} 地图对象
+ */
+let mapZoomOut=function (map) {
+    map.zoomOut();
+};
+/**
+ * 跳转当前视角，缩放级别(无动画)
+ * @method mapJumpTo
+ * @memberOf Map
+ * @example
+ * let center=[
+ * 112.8547 + (Math.random() - 0.5)*0.3 ,
+ * 35.4992 + (Math.random() - 0.5)*0.3];
+ * let zoom=jmap.JYMap.getMapZoom(map);
+ * jmap.JYMap.mapJumpTo(map,center,zoom);
+ * @param map=-- {object} 地图对象
+ * @param center=-- {object} 将跳转的中心点坐标
+ * @param zoom=-- {number} 将跳转的缩放级别
+ */
+let mapJumpTo=function (map,center,zoom) {
+        map.jumpTo({
+            center:center,
+            zoom:zoom,
+        });
+};
+/**
+ * 跳转当前视角，缩放级别(有动画)
+ * @method mapFlyTo
+ * @memberOf Map
+ * @example
+ * let center=[
+ * 112.8547 + (Math.random() - 0.5)*0.3 ,
+ * 35.4992 + (Math.random() - 0.5)*0.3];
+ * let zoom=jmap.JYMap.getMapZoom(map);
+ * jmap.JYMap.mapFlyTo(map,center,zoom);
+ * @param map=-- {object} 地图对象
+ * @param center=-- {object} 将跳转的中心点坐标
+ * @param zoom=-- {number} 将跳转的缩放级别
+ */
+let mapFlyTo=function (map,center,zoom) {
+    map.flyTo({
+        center:center,
+        zoom:zoom,
+    });
+};
+/**
+ * 停止当前的任何跳转、飞行、动画
+ * @method mapStop
+ * @memberOf Map
+ * @example
+ * jmap.JYMap.mapStop(map);
+ * @param map=-- {object} 地图对象
+ */
+let mapStop=function (map) {
+    map.stop();
+};
+/**
+ * 删除地图
+ * @method removeMap
+ * @memberOf Map
+ * @example
+ * jmap.JYMap.removeMap(map);
+ * @param map=-- {object} 地图对象
+ */
+let removeMap=function (map) {
+    map.remove();
+};
+/**
+ * 根据行政编码查询区域矢量
+ * @method getPolygonByCode
+ * @memberOf Map
+ * @example
+ * let poly=jmap.JYMap.getPolygonByCode(polygonJsonUrl,'140100','border');
+ * @param url=-- {string} 矢量查询地址，不可为空
+ * @param code=-- {string} 要查询行政机构编码，不可为空，根据提供的中国行政编码对照表进行查询
+ * @param type=border {string} 查询类型{border,branch},当为border时，返回查询区域边界，当为branch时，返回查询区域所有下属区域边界，默认为border
+ * @return polygon {object} geojson矢量对象
+ */
+let getPolygonByCode=function (url,code,type) {
+    type = type ? type : 'border';//默认类型border，即边界
+    let region = null;
+    console.log(type)
+    if (code.length !== 6){
+        console.error("行政代码不符合规范");
+    }
+    if (code.slice(-4) === '0000') {
+        region = 'province';
+    } else if (code.slice(-2) === '00') {
+        region = 'city';
+    }else{
+        region = 'county';
+        type='border';
+    }
+    let qurl = url + '/' +'polygon/'+region+'/'+ type+'/'+code+'.json';
+    console.log(qurl)
+    let  mJson = $.ajax({url: qurl, async: false});
+    let rData=mJson.responseJSON;
+    return rData;
+};
+/**
+ * 根据行政编码查询区域中心点
+ * @method getCenterByCode
+ * @memberOf Map
+ * @example
+ * let center=jmap.JYMap.getCenterByCode(polygonJsonUrl,'140100');
+ * @param url=-- {string} 矢量查询地址，不可为空
+ * @param code=-- {string} 要查询行政机构编码，不可为空，根据提供的中国行政编码对照表进行查询
+ * @return polygon {object} geojson矢量对象，省、地级市返回行政中心；县级返回几何中心
+ */
+let getCenterByCode=function (url,code) {
+    let region = null;
+    if (code.length !== 6){
+        console.error("行政代码不符合规范");
+    }
+    if (code.slice(-4) === '0000') {
+        region = 'province';
+    } else if (code.slice(-2) === '00') {
+        region = 'city';
+    }else{
+        region = 'county';
+        type='border';
+    }
+    let qurl = url + '/' +'point/'+region+'/'+code+'.json';
+    let  mJson = $.ajax({url: qurl, async: false});
+    let rData=mJson.responseJSON;
+    return rData;
+};
+/**
+ * 根据行政编码查询区域下级所有点
+ * @method getPointsByCode
+ * @memberOf Map
+ * @example
+ * let points=jmap.JYMap.getPointsByCode(polygonJsonUrl,'140100');
+ * @param url=-- {string} 矢量查询地址，不可为空
+ * @param code=-- {string} 要查询行政机构编码，根据提供的中国行政编码对照表进行查询,可为空，默认为全国范围
+ * @return polygon {object} geojson矢量对象
+ */
+let getPointsByCode=function (url,code) {
+    code=code?code:'china';
+    let qurl = url + '/' +'searchdata/'+code+'.json';
+    console.log(qurl)
+    let  mJson = $.ajax({url: qurl, async: false});
+    let rData=mJson.responseJSON;
+    return rData;
+};
+/**
+ * 将区域边界矢量，转为遮罩矢量
+ * @method borderToMask
+ * @memberOf Map
+ * @example
+ * let poly=jmap.JYMap.getPolygonByCode(polygonJsonUrl,'140100','border');
+ * let mask=jmap.JYMap.borderToMask(poly);
+ * @param json=-- {object}  区域边界的geojson矢量对象，不可为空，通常是机构码查询边界的结果
+ * @return polygon {object} 遮罩的geojson矢量对象
+ */
+let borderToMask=function (json) {
+    let loneObj = JSON.parse(JSON.stringify(json));
+    loneObj.features[0].geometry.coordinates=[[[0,0],[0,90],[180,90],[180,0],[0,0]]];
+    loneObj.features[0].geometry.coordinates.push(json.features[0].geometry.coordinates[0]);
+    return loneObj;
+};
+module.exports = {
+    addMapboxMap,
+    getMapBounds,
+    getMapMinZoom,
+    getMapMaxZoom,
+    getMapZoom,
+    getMapCenter,
+    setMapMinZoom,
+    setMapMaxZoom,
+    setMapZoom,
+    setMapCenter,
+    mapZoomIn,
+    mapZoomOut,
+    mapJumpTo,
+    mapFlyTo,
+    mapStop,
+    removeMap,
+    getPolygonByCode,
+    getCenterByCode,
+    getPointsByCode,
+    borderToMask
+}</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.6</a> on Fri Sep 25 2020 11:53:40 GMT+0800 (GMT+08:00) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+<script src="scripts/collapse.js" defer></script>
+
+
+</body>
+</html>
