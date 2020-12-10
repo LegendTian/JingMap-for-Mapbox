@@ -19,7 +19,7 @@
 
 结构说明：
 ```
-          /JingMap-for-WebGL
+          /JingMap-for-Mapbox
               ├─build       打包配置文件
               ├─gis         项目打包输出目录
               ├─src         mapbox 封装改造相关源码
